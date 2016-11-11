@@ -1,6 +1,6 @@
-name: Monica's Blog
-description:
-meta_description: "Monica's Blog"
+name: Monica Dimitrova
+description: a personal blog
+meta_description: "Monica Dimitrova - a personal blog"
 
 markdown: kramdown
 highlighter: pygments

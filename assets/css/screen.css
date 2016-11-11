@@ -461,6 +461,9 @@ margin on the iframe, cause it breaks stuff. */
 .vertical {
     display: table-cell;
     vertical-align: middle;
+    background-image: url('../images/background.png');
+    background-repeat: no-repeat;
+    background-position: left center;
 }
 
 
