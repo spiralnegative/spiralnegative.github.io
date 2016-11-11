@@ -1,6 +1,6 @@
-name: Monica Dimitrova
-description: a personal blog
-meta_description: "Monica Dimitrova - a personal blog"
+name: mbdimitrova
+description: a glitch in your system
+meta_description: "mbdimitrova - a glitch in your system"
 
 markdown: kramdown
 highlighter: rouge
