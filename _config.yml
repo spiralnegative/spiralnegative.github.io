@@ -3,7 +3,7 @@ description: a personal blog
 meta_description: "Monica Dimitrova - a personal blog"
 
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 logo: false
 paginate: 15
 baseurl: /
