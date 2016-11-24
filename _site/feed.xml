@@ -5,9 +5,40 @@
     <description>a glitch in your system</description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 14 Nov 2016 12:59:31 +0200</pubDate>
-    <lastBuildDate>Mon, 14 Nov 2016 12:59:31 +0200</lastBuildDate>
-    <generator>Jekyll v3.3.0</generator>
+    <pubDate>Thu, 24 Nov 2016 10:41:19 +0200</pubDate>
+    <lastBuildDate>Thu, 24 Nov 2016 10:41:19 +0200</lastBuildDate>
+    <generator>Jekyll v3.3.1</generator>
+    
+      <item>
+        <title>Европейска седмица за намаляване на отпадъците</title>
+        <description>&lt;p&gt;От 19 до 27 Ноември 2016 се провежда &lt;a href=&quot;http://www.ewwr.eu/en&quot;&gt;Европейската седмица за намаляване на отпадъците&lt;/a&gt;, чиято цел е популяризирането на култура за осъзната употреба на ресурси и управление на отпадъците. Кампанията стартира като проект, подкрепен от програмата LIFE+ на Европейската комисия. Тази година темата е &lt;strong&gt;Използване на по-малко опаковки&lt;/strong&gt;, а българската инициатива &lt;a href=&quot;http://www.sipieu.com/&quot;&gt;СИПИ.еу&lt;/a&gt; се включва със следното &lt;a href=&quot;https://www.facebook.com/events/1695534674096707/&quot;&gt;предизивикателство&lt;/a&gt; и тага &lt;code class=&quot;highlighter-rouge&quot;&gt;#СприИзползванетоНаПластмасаЗаЕднократнаУпотреба&lt;/code&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Носи си чашка, а не използвай пластмасови и псевдокартонени чашки&lt;/li&gt;
+  &lt;li&gt;Носи си торба от плат, а не взимай найлонова торбичка&lt;/li&gt;
+  &lt;li&gt;Пълни си собствена бутилка, а не купувай пластмасови шишета&lt;/li&gt;
+  &lt;li&gt;Вземи си насипно, а не купувай опаковани и преопаковани стоки&lt;/li&gt;
+  &lt;li&gt;Използвай собствени съдове, когато пазаруваш&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Философията &lt;strong&gt;Zero Waste&lt;/strong&gt; намира все повече последователи по света. Макар в България да сме назад в класациите, дори и тук с малко повече желание и постоянство можете да намалите частично отпадъците си. Някои хора биха казали, че това е твърде голяма “занимавка”, но всъщност ползата е много по-голяма. Ежедневно се изхвърлят огромни количества използвана еднократно пластмаса, която не може да се разгради и остава в природата. Завинаги. &lt;em&gt;Нима искате да оставите след себе си планина от пластмаса?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Не можете лесно да накарате хората да изменят консуматорските си навици, но можете да им дадете добър пример.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 24 Nov 2016 09:36:00 +0200</pubDate>
+        <link>http://localhost:4000//ewwr2016/wastereductionweek/zerowaste/recycle/2016/11/24/european-week-for-waste-reduction.html</link>
+        <guid isPermaLink="true">http://localhost:4000//ewwr2016/wastereductionweek/zerowaste/recycle/2016/11/24/european-week-for-waste-reduction.html</guid>
+        
+        
+        <category>EWWR2016</category>
+        
+        <category>WasteReductionWeek</category>
+        
+        <category>ZeroWaste</category>
+        
+        <category>Recycle</category>
+        
+      </item>
     
       <item>
         <title>Hello World</title>
