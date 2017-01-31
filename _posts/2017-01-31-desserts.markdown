@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Desserts"
+date:   2017-01-31 19:09:00
+disqus: true
+categories: Desserts Hobbies Photos
+---
+
+Baking has been one of my hobbies for a few years. I am not sure when did it happen but I feel like I've always been interested in cooking. With the rise of the Internet, providing an endless resource of recipes next to my cookbooks, I started cooking different desserts and discovered I mostly enjoy baking muffins and cookies. I decided to upload the photos of my favourite desserts - if you're curious about a recipe, just drop a comment.
+
+<a data-flickr-embed="true" data-footer="true"  href="https://www.flickr.com/photos/147251133@N04/albums/72157679803118985" title="Desserts"><img src="https://c1.staticflickr.com/1/649/31789222394_56513576c6_z.jpg" width="640" height="480" alt="Desserts"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
