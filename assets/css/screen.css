@@ -428,6 +428,11 @@ margin on the iframe, cause it breaks stuff. */
     margin: 0;
 }
 
+/* prevent floating footer on About me page */
+.content {
+    min-height: 64%;
+}
+
 
 /* ==========================================================================
    3. Utilities - These things get used a lot
@@ -604,6 +609,7 @@ margin on the iframe, cause it breaks stuff. */
     float: right;
     height: 38px;
     padding: 0 20px;
+    margin-right: 5px;
     border: transparent 1px solid;
     color: #9EABB3;
     text-align: center;
@@ -653,6 +659,12 @@ margin on the iframe, cause it breaks stuff. */
     border-color: #fff;
     background: #fff;
     transition: all 0.1s ease;
+}
+
+.center-image
+{
+    margin: 0 auto;
+    display: block;
 }
 
 /* Add a border to the buttons on hover */
