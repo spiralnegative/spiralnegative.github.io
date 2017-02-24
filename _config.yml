@@ -14,3 +14,4 @@ gems: [jekyll-paginate]
 url:            'http://mbdimitrova.space'
 author:         'Monica Dimitrova'
 bio:            'Programmer, wannabe baker, tea drinker, cyberpunk enthusiast. INFJ'
+permalink: /:title.html

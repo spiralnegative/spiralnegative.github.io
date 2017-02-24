@@ -5,12 +5,12 @@
     <description>a glitch in your system</description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 24 Feb 2017 10:06:03 +0200</pubDate>
-    <lastBuildDate>Fri, 24 Feb 2017 10:06:03 +0200</lastBuildDate>
+    <pubDate>Fri, 24 Feb 2017 10:44:14 +0200</pubDate>
+    <lastBuildDate>Fri, 24 Feb 2017 10:44:14 +0200</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
-        <title>Reasons why I don't use Facebook</title>
+        <title>Reasons why I don't use Facebook </title>
         <description>&lt;p&gt;It has been a few years since I deactivated my Facebook account and I don’t regret it. People sometimes ask me why - well, I am neither asocial nor friendless. I am just one of &lt;em&gt;those people who don’t use Facebook&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/metadata.jpg&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
@@ -56,9 +56,9 @@
 &lt;h3 id=&quot;i-dont-want-to-waste-my-time&quot;&gt;I don’t want to waste my time&lt;/h3&gt;
 &lt;p&gt;Time is limited and learning how to prioritize is important. I am trying to reduce the number of things that require my attention so that I can happily apply more attention to those things I care the most about.&lt;/p&gt;
 </description>
-        <pubDate>Thu, 23 Feb 2017 21:38:00 +0200</pubDate>
-        <link>http://localhost:4000//privacy/facebook/2017/02/23/reasons-why-i-dont-use-facebook.html</link>
-        <guid isPermaLink="true">http://localhost:4000//privacy/facebook/2017/02/23/reasons-why-i-dont-use-facebook.html</guid>
+        <pubDate>Thu, 23 Feb 2017 23:38:00 +0200</pubDate>
+        <link>http://localhost:4000//reasons-why-i-dont-use-facebook.html</link>
+        <guid isPermaLink="true">http://localhost:4000//reasons-why-i-dont-use-facebook.html</guid>
         
         
         <category>Privacy</category>
@@ -74,8 +74,8 @@
 &lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot; data-footer=&quot;true&quot; href=&quot;https://www.flickr.com/photos/147251133@N04/albums/72157679803118985&quot; title=&quot;Desserts&quot;&gt;&lt;img src=&quot;https://c1.staticflickr.com/1/649/31789222394_56513576c6_z.jpg&quot; width=&quot;640&quot; height=&quot;480&quot; alt=&quot;Desserts&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 31 Jan 2017 21:09:00 +0200</pubDate>
-        <link>http://localhost:4000//desserts/hobbies/photos/2017/01/31/desserts.html</link>
-        <guid isPermaLink="true">http://localhost:4000//desserts/hobbies/photos/2017/01/31/desserts.html</guid>
+        <link>http://localhost:4000//desserts.html</link>
+        <guid isPermaLink="true">http://localhost:4000//desserts.html</guid>
         
         
         <category>Desserts</category>
@@ -103,8 +103,8 @@
 &lt;p&gt;You cannot easily make people change their consumer habbits but you can give them a good example.&lt;/p&gt;
 </description>
         <pubDate>Thu, 24 Nov 2016 09:36:00 +0200</pubDate>
-        <link>http://localhost:4000//ewwr2016/wastereductionweek/zerowaste/recycle/2016/11/24/european-week-for-waste-reduction.html</link>
-        <guid isPermaLink="true">http://localhost:4000//ewwr2016/wastereductionweek/zerowaste/recycle/2016/11/24/european-week-for-waste-reduction.html</guid>
+        <link>http://localhost:4000//european-week-for-waste-reduction.html</link>
+        <guid isPermaLink="true">http://localhost:4000//european-week-for-waste-reduction.html</guid>
         
         
         <category>EWWR2016</category>
@@ -124,8 +124,8 @@
 &lt;p&gt;Ready, Set, Go!&lt;/p&gt;
 </description>
         <pubDate>Thu, 10 Nov 2016 12:18:00 +0200</pubDate>
-        <link>http://localhost:4000//programming/jekyll/2016/11/10/hello-world.html</link>
-        <guid isPermaLink="true">http://localhost:4000//programming/jekyll/2016/11/10/hello-world.html</guid>
+        <link>http://localhost:4000//hello-world.html</link>
+        <guid isPermaLink="true">http://localhost:4000//hello-world.html</guid>
         
         
         <category>Programming</category>
