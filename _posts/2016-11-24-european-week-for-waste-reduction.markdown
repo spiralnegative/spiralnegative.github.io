@@ -3,7 +3,11 @@ layout: post
 title:  "European Week for Waste Reduction"
 date:   2016-11-24 07:36:00
 disqus: true
-categories: EWWR2016 WasteReductionWeek ZeroWaste Recycle
+tags:
+- EWWR2016
+- WasteReductionWeek
+- zerowaste
+- recycling
 ---
 
 [The European Week for Waste Reduction](http://www.ewwr.eu/en) takes place between the 19th and the 27th of November 2016 and is aiming to promote culture of sustainable use of resources and waste management. This year the focus is on **packaging waste** and the ways to reduce it. The Bulgarian initiative [СИПИ.еу](http://www.sipieu.com/) participates with the following [challenge](https://www.facebook.com/events/1695534674096707/) and the tag `#СприИзползванетоНаПластмасаЗаЕднократнаУпотреба`:

@@ -3,7 +3,8 @@ layout: post
 title:  "Reasons why I don't use Facebook "
 date:   2017-02-23 21:38:00
 disqus: true
-categories: Privacy Facebook
+tags:
+- privacy
 ---
 
 It has been a few years since I deactivated my Facebook account and I don't regret it. People sometimes ask me why - well, I am neither asocial nor friendless. I am just one of _those people who don't use Facebook_.

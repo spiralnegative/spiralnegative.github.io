@@ -5,9 +5,9 @@
     <description>a glitch in your system</description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 24 Feb 2017 10:44:14 +0200</pubDate>
-    <lastBuildDate>Fri, 24 Feb 2017 10:44:14 +0200</lastBuildDate>
-    <generator>Jekyll v3.3.1</generator>
+    <pubDate>Tue, 14 Mar 2017 23:43:23 +0200</pubDate>
+    <lastBuildDate>Tue, 14 Mar 2017 23:43:23 +0200</lastBuildDate>
+    <generator>Jekyll v3.4.1</generator>
     
       <item>
         <title>Reasons why I don't use Facebook </title>
@@ -60,10 +60,8 @@
         <link>http://localhost:4000//reasons-why-i-dont-use-facebook.html</link>
         <guid isPermaLink="true">http://localhost:4000//reasons-why-i-dont-use-facebook.html</guid>
         
+        <category>privacy</category>
         
-        <category>Privacy</category>
-        
-        <category>Facebook</category>
         
       </item>
     
@@ -77,12 +75,12 @@
         <link>http://localhost:4000//desserts.html</link>
         <guid isPermaLink="true">http://localhost:4000//desserts.html</guid>
         
+        <category>desserts</category>
         
-        <category>Desserts</category>
+        <category>hobbies</category>
         
-        <category>Hobbies</category>
+        <category>photos</category>
         
-        <category>Photos</category>
         
       </item>
     
@@ -106,14 +104,14 @@
         <link>http://localhost:4000//european-week-for-waste-reduction.html</link>
         <guid isPermaLink="true">http://localhost:4000//european-week-for-waste-reduction.html</guid>
         
-        
         <category>EWWR2016</category>
         
         <category>WasteReductionWeek</category>
         
-        <category>ZeroWaste</category>
+        <category>zerowaste</category>
         
-        <category>Recycle</category>
+        <category>recycling</category>
+        
         
       </item>
     
@@ -127,10 +125,10 @@
         <link>http://localhost:4000//hello-world.html</link>
         <guid isPermaLink="true">http://localhost:4000//hello-world.html</guid>
         
-        
-        <category>Programming</category>
+        <category>programming</category>
         
         <category>Jekyll</category>
+        
         
       </item>
     
