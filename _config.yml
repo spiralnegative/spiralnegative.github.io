@@ -13,5 +13,5 @@ gems: [jekyll-paginate]
 # Details for the RSS feed generator
 url:            'http://mbdimitrova.space'
 author:         'Monica Dimitrova'
-bio:            'Programmer, wannabe baker, tea drinker, cyberpunk enthusiast. INFJ'
+bio:            'Nature lover, Ruby developer, wannabe baker, tea drinker, cyberpunk enthusiast. INFJ 🐇'
 permalink: /:title.html
