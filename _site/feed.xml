@@ -5,9 +5,91 @@
     <description>a glitch in your system</description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 09 Apr 2017 17:04:26 +0300</pubDate>
-    <lastBuildDate>Sun, 09 Apr 2017 17:04:26 +0300</lastBuildDate>
-    <generator>Jekyll v3.4.3</generator>
+    <pubDate>Thu, 14 Dec 2017 00:31:42 +0200</pubDate>
+    <lastBuildDate>Thu, 14 Dec 2017 00:31:42 +0200</lastBuildDate>
+    <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>Bratislava</title>
+        <description>&lt;h2 id=&quot;eurotrip&quot;&gt;Eurotrip?&lt;/h2&gt;
+&lt;p&gt;Do you remember that hilarious Bratislava scene from the movie &lt;em&gt;Eurotrip&lt;/em&gt;? That’s what used to come across my mind evry time I heard the name of the capital of Slovakia. Joking. Maybe not. Anyway, a few months ago a friend suggested we go on a trip to Bratislava. Eventually it turned out to be one of the best vacations ever. And not because of the exchage rate.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-city&quot;&gt;The city&lt;/h2&gt;
+&lt;p&gt;some words&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Old Town Hall (Stará radnica)&lt;/li&gt;
+  &lt;li&gt;Michal Tower (Michalská brána)&lt;/li&gt;
+  &lt;li&gt;Bratislava Castle (Bratislavský hrad)&lt;/li&gt;
+  &lt;li&gt;
+    &lt;table&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;Fountain of union (Linden flower)&lt;/td&gt;
+          &lt;td&gt;Fontána Družby (Lipový kvet)&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+  &lt;li&gt;UFO&lt;/li&gt;
+  &lt;li&gt;Man at Work (Čumil)&lt;/li&gt;
+  &lt;li&gt;Bratislava City Museum (Mestské Múzeum ) - an exhibit of the city history and an exhibit of torture devices&lt;/li&gt;
+  &lt;li&gt;Slavín&lt;/li&gt;
+  &lt;li&gt;Church of St. Elizabeth, commonly known as Blue Church (Modrý kostolík)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;food-and-drinks&quot;&gt;Food and drinks&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Verne - https://www.likealocalguide.com/bratislava/verne&lt;/li&gt;
+  &lt;li&gt;oldest restaurant in town&lt;/li&gt;
+  &lt;li&gt;ribs - http://dunajska.mestianskypivovar.sk/&lt;/li&gt;
+  &lt;li&gt;stupavar&lt;/li&gt;
+  &lt;li&gt;beer place - https://www.facebook.com/pg/www.lokal.sk/photos/?ref=page_internal&lt;/li&gt;
+  &lt;li&gt;hidden bar&lt;/li&gt;
+  &lt;li&gt;langoshi&lt;/li&gt;
+  &lt;li&gt;Bratislavske Makove Rozteky&lt;/li&gt;
+  &lt;li&gt;Kofola&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;other-interesting-places&quot;&gt;Other interesting places&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Golden Sands&lt;/li&gt;
+  &lt;li&gt;Botanical garden&lt;/li&gt;
+  &lt;li&gt;Zero waste shop&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;bonus-trip-to-vienna&quot;&gt;Bonus: trip to Vienna&lt;/h2&gt;
+</description>
+        <pubDate>Tue, 29 Aug 2017 01:37:00 +0300</pubDate>
+        <link>http://localhost:4000//bratislava.html</link>
+        <guid isPermaLink="true">http://localhost:4000//bratislava.html</guid>
+        
+        <category>photography</category>
+        
+        <category>traveling</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Analogue photography</title>
+        <description>&lt;p&gt;Although film cameras are considered “outdated” technology, there is something enchanting about analogue photography. No filter or tool applied to a digital photo can reproduce the aesthetic and imprerfections only available in film. It just looks better.&lt;/p&gt;
+
+&lt;p&gt;Slow down &amp;amp; element of surprise&lt;/p&gt;
+
+&lt;p&gt;No electricity&lt;/p&gt;
+
+&lt;p&gt;TODO&lt;/p&gt;
+
+&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot; data-footer=&quot;true&quot; href=&quot;https://www.flickr.com/photos/147251133@N04/33148141833/in/dateposted-public/&quot; title=&quot;Vitosha&quot;&gt;&lt;img src=&quot;https://c1.staticflickr.com/3/2826/33148141833_2edb976094_z.jpg&quot; width=&quot;640&quot; height=&quot;429&quot; alt=&quot;Vitosha&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 08 Jun 2017 21:29:00 +0300</pubDate>
+        <link>http://localhost:4000//analogue-photography.html</link>
+        <guid isPermaLink="true">http://localhost:4000//analogue-photography.html</guid>
+        
+        <category>photography</category>
+        
+        
+      </item>
     
       <item>
         <title>1 Second Everyday - My Life at 25</title>
