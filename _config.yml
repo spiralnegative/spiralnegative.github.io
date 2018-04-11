@@ -1,6 +1,7 @@
 name: mbdimitrova
 description: a glitch in your system
 meta_description: "mbdimitrova - a glitch in your system"
+github: 'https://github.com/mbdimitrova'
 
 markdown: kramdown
 highlighter: rouge
