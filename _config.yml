@@ -1,18 +1,18 @@
 name: mbdimitrova
 description: a glitch in your system
-meta_description: "mbdimitrova - a glitch in your system"
-github: 'https://github.com/mbdimitrova'
+meta_description: mbdimitrova - a glitch in your system
+github: https://github.com/mbdimitrova
 
 markdown: kramdown
 highlighter: rouge
 logo: false
 paginate: 15
 baseurl: /
-domain_name: 'http://mbdimitrova.space'
+domain_name: http://mbdimitrova.space
 gems: [jekyll-paginate]
 
 # Details for the RSS feed generator
-url:            'http://mbdimitrova.space'
-author:         'Monica Dimitrova'
-bio:            'Nature lover, Ruby developer, wannabe baker, tea drinker, cyberpunk enthusiast. INFJ 🐇'
+url:            http://mbdimitrova.space
+author:         Monica Dimitrova
+bio:            Nature lover, Ruby developer, wannabe baker, tea drinker, cyberpunk enthusiast. INFJ 🐇
 permalink: /:title.html
