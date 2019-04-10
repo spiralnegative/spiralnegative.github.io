@@ -5,9 +5,38 @@
     <description>a glitch in your system</description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 29 Dec 2018 22:07:19 +0200</pubDate>
-    <lastBuildDate>Sat, 29 Dec 2018 22:07:19 +0200</lastBuildDate>
+    <pubDate>Wed, 10 Apr 2019 23:45:38 +0300</pubDate>
+    <lastBuildDate>Wed, 10 Apr 2019 23:45:38 +0300</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
+    
+      <item>
+        <title>1 Second Everyday - My Life at 27</title>
+        <description>&lt;p&gt;My new &lt;a href=&quot;http://1se.co/&quot;&gt;1 Second Everyday&lt;/a&gt; video is ready. Enjoy the moments to remember along with the random ones, together capturing one of the best years in my life.&lt;/p&gt;
+
+&lt;h3 id=&quot;music&quot;&gt;Music&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://freemusicarchive.org/music/Ryan_Andersen/Never_Sleep_-_Indie_Rock/London_Calling&quot;&gt;&lt;strong&gt;London Calling&lt;/strong&gt; by Ryan Andersen&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://freemusicarchive.org/music/Ryan_Andersen/Swimming/Easy_Feels&quot;&gt;&lt;strong&gt;Easy Feels&lt;/strong&gt; by Ryan Andersen&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://freemusicarchive.org/music/Ryan_Andersen/Swimming/longdayz&quot;&gt;&lt;strong&gt;longdayz&lt;/strong&gt; by Ryan Andersen&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;thanks&quot;&gt;Thanks&lt;/h3&gt;
+&lt;p&gt;Thanks to my SO and all of you who are in this video :)&lt;/p&gt;
+
+&lt;iframe src=&quot;https://player.vimeo.com/video/329670993&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href=&quot;https://vimeo.com/329670993&quot;&gt;1 Second Everyday - My Life at 27&lt;/a&gt; from &lt;a href=&quot;https://vimeo.com/user65236944&quot;&gt;M&lt;/a&gt; on &lt;a href=&quot;https://vimeo.com&quot;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Note: if you’re in the video, you’ll have received the password.&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 10 Apr 2019 23:00:00 +0300</pubDate>
+        <link>http://localhost:4000//1-second-everyday-my-life-at-27.html</link>
+        <guid isPermaLink="true">http://localhost:4000//1-second-everyday-my-life-at-27.html</guid>
+        
+        <category>video</category>
+        
+        
+      </item>
     
       <item>
         <title>Botanical gardens I visited in 2018</title>
