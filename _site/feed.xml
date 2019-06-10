@@ -5,8 +5,8 @@
     <description>a glitch in your system</description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 03 May 2019 16:57:39 +0300</pubDate>
-    <lastBuildDate>Fri, 03 May 2019 16:57:39 +0300</lastBuildDate>
+    <pubDate>Mon, 10 Jun 2019 18:32:45 +0300</pubDate>
+    <lastBuildDate>Mon, 10 Jun 2019 18:32:45 +0300</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -417,7 +417,7 @@ Absolutely - in fact, another one is in progress.&lt;/p&gt;
     
       <item>
         <title>Hello World</title>
-        <description>&lt;p&gt;It was high time I started &lt;a href=&quot;http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html&quot;&gt;blogging like a hacker&lt;/a&gt;. &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;, a static site generator in Ruby, was exactly what I needed. It converts raw text files in various formats and generates a complete, static website. All of the content is hosted and version-controlled on &lt;a href=&quot;https://github.com/mbdimitrova/mbdimitrova.github.io&quot;&gt;GitHub&lt;/a&gt;. Basically, I write my posts in Markdown using my test editor of choice, VIm, then I commit and push to Github. Awesome, right?&lt;/p&gt;
+        <description>&lt;p&gt;It was high time I started &lt;a href=&quot;http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html&quot;&gt;blogging like a hacker&lt;/a&gt;. &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;, a static site generator in Ruby, was exactly what I needed. It converts raw text files in various formats and generates a complete, static website. All of the content is hosted and version-controlled on &lt;a href=&quot;https://github.com/spiralnegative/spiralnegative.github.io&quot;&gt;GitHub&lt;/a&gt;. Basically, I write my posts in Markdown using my test editor of choice, VIm, then I commit and push to Github. Awesome, right?&lt;/p&gt;
 
 &lt;p&gt;Ready, Set, Go!&lt;/p&gt;
 </description>
