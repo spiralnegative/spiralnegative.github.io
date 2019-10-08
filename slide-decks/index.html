@@ -1,0 +1,17 @@
+---
+layout: post
+title: Slide Decks
+---
+<div class="home">
+  My presentation slides, created with <a href="http://lab.hakim.se/reveal-js/">reveal.js</a>
+  <br>
+  <br>
+  <ul class="post-list">
+    {% for post in site.categories.presentation %}
+      <li>
+        <span>{{ post.date  | date: "%b %-d, %Y" }}
+        <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

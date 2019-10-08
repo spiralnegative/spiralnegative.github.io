@@ -5,9 +5,318 @@
     <description>a glitch in your system</description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 03 Sep 2019 15:45:04 +0300</pubDate>
-    <lastBuildDate>Tue, 03 Sep 2019 15:45:04 +0300</lastBuildDate>
+    <pubDate>Tue, 08 Oct 2019 23:29:31 +0300</pubDate>
+    <lastBuildDate>Tue, 08 Oct 2019 23:29:31 +0300</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Rubyist's guide to Python</title>
+        <description>&lt;section&gt;
+  &lt;h1&gt;Rubyist's guide to Python&lt;/h1&gt;
+  &lt;p&gt;
+    Monica Georgieva @spiralnegative
+  &lt;/p&gt;
+&lt;/section&gt;
+
+&lt;section data-background=&quot;/reveal.js/assets/images/it_crowd_1.gif&quot;&gt;
+  &lt;h2 style=&quot;color:#fdf6e3;&quot;&gt;Main differences&lt;/h2&gt;
+&lt;/section&gt;
+
+&lt;section&gt;
+  &lt;h2&gt;Use cases&lt;/h2&gt;
+  &lt;h3&gt;Ruby&lt;/h3&gt;
+  quick development of web applications
+  &lt;br /&gt;fast prototyping
+  &lt;br /&gt;command line utilities, tooling and sysadmin work
+  &lt;br /&gt;
+  &lt;br /&gt;
+  &lt;h3&gt;Python&lt;/h3&gt;
+  data-heavy sites and servers
+  &lt;br /&gt;usage by non-programmers
+  &lt;br /&gt;big data, math problems and scientific research
+&lt;/section&gt;
+
+&lt;section&gt;
+  &lt;h2&gt;Characteristics&lt;/h2&gt;
+  &lt;h3&gt;Ruby&lt;/h3&gt;
+  freedom and flexibility to do things in different ways
+  &lt;br /&gt;expressive, elegant and efficient
+  &lt;br /&gt;very web focused and innovates quicker
+  &lt;br /&gt;
+  &lt;br /&gt;
+  &lt;h3&gt;Python&lt;/h3&gt;
+  explicit - simplicity over flexibility
+  &lt;br /&gt;quicker to learn, conservative and efficient
+  &lt;br /&gt;stable and diverse, but innovates slower
+&lt;/section&gt;
+
+&lt;section&gt;
+  &lt;h2&gt;Popular applications&lt;/h2&gt;
+  &lt;h3&gt;Ruby&lt;/h3&gt;
+  Basecamp, Twitter (originally), GitHub, Airbnb
+  &lt;br /&gt;
+  &lt;br /&gt;
+  &lt;h3&gt;Python&lt;/h3&gt;
+  YouTube, Instagram, Spotify, Reddit
+&lt;/section&gt;
+
+&lt;section&gt;
+  &lt;h2&gt;Libraries&lt;/h2&gt;
+  &lt;h3&gt;Ruby&lt;/h3&gt;
+  &lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;gem install pry&lt;/code&gt;&lt;/pre&gt;
+  &lt;br /&gt;
+  &lt;br /&gt;
+  &lt;h3&gt;Python&lt;/h3&gt;
+  &lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;pip3 install numpy&lt;/code&gt;&lt;/pre&gt;
+&lt;/section&gt;
+
+&lt;section&gt;
+  &lt;h2&gt;Testing and debugging&lt;/h2&gt;
+  &lt;h3&gt;Ruby&lt;/h3&gt;
+  RSpec and Cucumber
+  &lt;br /&gt;pry and byebug
+  &lt;br /&gt;
+  &lt;br /&gt;
+  &lt;h3&gt;Python&lt;/h3&gt;
+  PyTest and unittest
+  &lt;br /&gt;pdb and PuDB
+&lt;/section&gt;
+
+&lt;section data-background=&quot;/reveal.js/assets/images/it_crowd_2.gif&quot;&gt;
+  &lt;h2 style=&quot;color:#fdf6e3;&quot;&gt;Ruby vs Python&lt;/h2&gt;
+&lt;/section&gt;
+
+&lt;section&gt;
+  &lt;h2&gt;Closures&lt;/h2&gt;
+  &lt;h3&gt;Ruby&lt;/h3&gt;
+  &lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;
+[5,6,7].each { |n| puts &quot;#{n}!!!&quot; }
+          &lt;/code&gt;&lt;/pre&gt;
+          &lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;
+def return_from_proc
+  a = Proc.new { return 10 }.call
+  puts &quot;This will never be printed.&quot;
+end
+          &lt;/code&gt;&lt;/pre&gt;
+          &lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;
+def return_from_lambda
+  a = lambda { return 10 }.call
+  puts &quot;The lambda returned #{a}, and this will be printed.&quot;
+end
+  &lt;/code&gt;&lt;/pre&gt;
+&lt;/section&gt;
+
+&lt;section&gt;
+  &lt;h2&gt;Closures&lt;/h2&gt;
+  &lt;h3&gt;Python&lt;/h3&gt;
+  &lt;pre&gt;&lt;code class=&quot;python&quot;&gt;
+def outer_function(x):
+  def inner_increment(x):
+      return x + 2
+
+  y = inner_increment(x)
+  print(x, y)
+
+outer_function(5)
+# 5 7
+  &lt;/code&gt;&lt;/pre&gt;
+&lt;/section&gt;
+
+&lt;section&gt;
+  &lt;h2&gt;Functions as arguments&lt;/h2&gt;
+  &lt;h3&gt;Ruby&lt;/h3&gt;
+  &lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;
+def run_proc_with_random_number(proc)
+  proc.call(rand)
+end
+
+proc = Proc.new { |number| puts &quot;#{number}!!!&quot; }
+run_proc_with_random_number(proc)
+  &lt;/code&gt;&lt;/pre&gt;
+&lt;/section&gt;
+
+&lt;section&gt;
+  &lt;h2&gt;Functions as arguments&lt;/h2&gt;
+  &lt;h3&gt;Python&lt;/h3&gt;
+  &lt;pre&gt;&lt;code class=&quot;python&quot;&gt;
+from random import *
+
+def run_with_random_number(func):
+  func(random())
+
+def exclaim(number):
+  print(f&quot;{number}!!!&quot;)
+
+run_with_random_number(exclaim)
+  &lt;/code&gt;&lt;/pre&gt;
+&lt;/section&gt;
+
+&lt;section&gt;
+  &lt;h2&gt;Multiple inheritance&lt;/h2&gt;
+  &lt;h3&gt;Ruby&lt;/h3&gt;
+  &lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;
+module Cupcake
+  def sprinkle; end
+end
+
+module Cookie
+  def glaze; end
+end
+
+class Dessert
+  include Cupcake
+  include Cookie
+
+  def bake; end
+end
+  &lt;/code&gt;&lt;/pre&gt;
+&lt;/section&gt;
+
+&lt;section&gt;
+  &lt;h2&gt;Multiple inheritance&lt;/h2&gt;
+  &lt;h3&gt;Python&lt;/h3&gt;
+  &lt;pre&gt;&lt;code class=&quot;python&quot;&gt;
+class Cupcake:
+  def sprinkle(self):
+      pass
+
+class Cookie:
+  def glaze(self):
+      pass
+
+class Dessert(Cupcake, Cookie):
+  def bake(self):
+      pass
+  &lt;/code&gt;&lt;/pre&gt;
+&lt;/section&gt;
+
+&lt;section&gt;
+  &lt;h2&gt;To return or not to return?&lt;/h2&gt;
+  &lt;h3&gt;Ruby&lt;/h3&gt;
+  &lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;
+def valid_dna?(sequence)
+  sequence.chars.all? { |char| 'ACGT'.include? char }
+end
+  &lt;/code&gt;&lt;/pre&gt;
+  &lt;br /&gt;
+  &lt;h3&gt;Python&lt;/h3&gt;
+  &lt;pre&gt;&lt;code class=&quot;python&quot;&gt;
+def valid_dna(sequence):
+  return all(char in 'ACGT' for char in sequence)
+  &lt;/code&gt;&lt;/pre&gt;
+&lt;/section&gt;
+
+&lt;section&gt;
+  &lt;h2&gt;The missing case&lt;/h2&gt;
+  &lt;h3&gt;Ruby&lt;/h3&gt;
+  &lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;
+case x
+when 0
+  puts &quot;That's a good start&quot;
+when 1..5
+  puts 'Getting there...'
+when 'Ruby'
+  puts 'Banitsa!'
+when 42
+  puts 'The answer'
+else
+  puts &quot;What should I do with #{x}?&quot;
+end
+  &lt;/code&gt;&lt;/pre&gt;
+&lt;/section&gt;
+
+&lt;section&gt;
+  &lt;h2&gt;The missing case&lt;/h2&gt;
+  &lt;h3&gt;Python&lt;/h3&gt;
+  &lt;pre&gt;&lt;code class=&quot;python&quot;&gt;
+def f(x):
+  return {
+      0: &quot;That's a good start&quot;,
+      5: 'Getting there...',
+      'Ruby': 'Banitsa',
+      42: 'The answer'
+  }.get(x, f'What should I do with {x}')
+  &lt;/code&gt;&lt;/pre&gt;
+&lt;/section&gt;
+
+&lt;section&gt;
+  &lt;h2&gt;Ternary operators&lt;/h2&gt;
+  &lt;h3&gt;Ruby&lt;/h3&gt;
+  &lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;
+awake &amp;amp;&amp;amp; ready ? 'go to work' : 'wake up and get ready'
+if awake &amp;amp;&amp;amp; ready then 'go to work' else 'wake up and get ready' end
+  &lt;/code&gt;&lt;/pre&gt;
+  &lt;br /&gt;
+  &lt;h3&gt;Python&lt;/h3&gt;
+  &lt;pre&gt;&lt;code class=&quot;python&quot;&gt;
+'go to work' if awake and ready else 'wake up and get ready'
+  &lt;/code&gt;&lt;/pre&gt;
+&lt;/section&gt;
+
+&lt;section&gt;
+  &lt;h2&gt;Flatten and reduce&lt;/h2&gt;
+  &lt;h3&gt;Ruby&lt;/h3&gt;
+  &lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;
+numbers = [[1, 2], [3, 4, 5], [6]]
+numbers.flatten
+# =&amp;gt; [1, 2, 3, 4, 5, 6]
+
+numbers = _
+numbers.reduce(100, :+)
+# =&amp;gt; 121
+  &lt;/code&gt;&lt;/pre&gt;
+&lt;/section&gt;
+
+&lt;section&gt;
+  &lt;h2&gt;Flatten and reduce&lt;/h2&gt;
+  &lt;h3&gt;Python&lt;/h3&gt;
+  &lt;pre&gt;&lt;code class=&quot;python&quot;&gt;
+numbers = [[1, 2], [3, 4, 5], [6]]
+[y for x in numbers for y in x]
+# [1, 2, 3, 4, 5, 6]
+
+import itertools
+list(itertools.chain(*numbers))
+# [1, 2, 3, 4, 5, 6]
+
+numbers = _
+from functools import reduce
+reduce((lambda x, y: x + y), [100] + numbers)
+  &lt;/code&gt;&lt;/pre&gt;
+&lt;/section&gt;
+
+&lt;section&gt;
+  &lt;h2&gt;Adding an element to a list&lt;/h2&gt;
+  &lt;h3&gt;Ruby&lt;/h3&gt;
+  &lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;
+animals = []
+animals[5] = 'rabbit'
+animals
+# =&amp;gt; [nil, nil, nil, nil, nil, 'rabbit']
+  &lt;/code&gt;&lt;/pre&gt;
+  &lt;h3&gt;Python&lt;/h3&gt;
+  &lt;pre&gt;&lt;code class=&quot;python&quot;&gt;
+animals = []
+animals[5] = 'rabbit'
+# IndexError: list assignment index out of range
+  &lt;/code&gt;&lt;/pre&gt;
+&lt;/section&gt;
+&lt;section data-background=&quot;/reveal.js/assets/images/it_crowd_3.gif&quot;&gt;
+  &lt;h2 style=&quot;color:#fdf6e3;&quot;&gt;Thank you!&lt;/h2&gt;
+&lt;/section&gt;
+</description>
+        <pubDate>Tue, 08 Oct 2019 22:20:00 +0300</pubDate>
+        <link>http://localhost:4000//rubyists-guide-to-python.html</link>
+        <guid isPermaLink="true">http://localhost:4000//rubyists-guide-to-python.html</guid>
+        
+        <category>programming</category>
+        
+        <category>presentation</category>
+        
+        
+        <category>presentation</category>
+        
+      </item>
     
       <item>
         <title>Film photography</title>
@@ -411,23 +720,6 @@ Absolutely - in fact, another one is in progress.&lt;/p&gt;
         <category>zerowaste</category>
         
         <category>recycling</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Hello World</title>
-        <description>&lt;p&gt;It was high time I started &lt;a href=&quot;http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html&quot;&gt;blogging like a hacker&lt;/a&gt;. &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;, a static site generator in Ruby, was exactly what I needed. It converts raw text files in various formats and generates a complete, static website. All of the content is hosted and version-controlled on &lt;a href=&quot;https://github.com/spiralnegative/spiralnegative.github.io&quot;&gt;GitHub&lt;/a&gt;. Basically, I write my posts in Markdown using my test editor of choice, VIm, then I commit and push to Github. Awesome, right?&lt;/p&gt;
-
-&lt;p&gt;Ready, Set, Go!&lt;/p&gt;
-</description>
-        <pubDate>Thu, 10 Nov 2016 12:18:00 +0200</pubDate>
-        <link>http://localhost:4000//hello-world.html</link>
-        <guid isPermaLink="true">http://localhost:4000//hello-world.html</guid>
-        
-        <category>programming</category>
-        
-        <category>Jekyll</category>
         
         
       </item>
