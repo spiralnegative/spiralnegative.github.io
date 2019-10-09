@@ -17,7 +17,7 @@ tags:
 </section>
 
 
-<section data-background="{{ "reveal.js/assets/images/it_crowd_1.gif" | prepend: site.baseurl }}">
+<section data-background="/assets/images/it_crowd_1.gif">
   <h2 style="color:#fdf6e3;">Main differences</h2>
 </section>
 
@@ -81,7 +81,7 @@ tags:
   <br>pdb and PuDB
 </section>
 
-<section data-background="{{ "reveal.js/assets/images/it_crowd_2.gif" | prepend: site.baseurl }}">
+<section data-background="/assets/images/it_crowd_2.gif">
   <h2 style="color:#fdf6e3;">Ruby vs Python</h2>
 </section>
 
@@ -300,6 +300,6 @@ animals[5] = 'rabbit'
 # IndexError: list assignment index out of range
   </code></pre>
 </section>
-<section data-background="{{ "reveal.js/assets/images/it_crowd_3.gif" | prepend: site.baseurl }}">
+<section data-background="/assets/images/it_crowd_3.gif">
   <h2 style="color:#fdf6e3;">Thank you!</h2>
 </section>
