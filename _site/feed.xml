@@ -5,700 +5,18 @@
     <description>a glitch in your system</description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 16 Mar 2020 13:54:01 +0200</pubDate>
-    <lastBuildDate>Mon, 16 Mar 2020 13:54:01 +0200</lastBuildDate>
+    <pubDate>Mon, 16 Mar 2020 15:04:48 +0200</pubDate>
+    <lastBuildDate>Mon, 16 Mar 2020 15:04:48 +0200</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
-      <item>
-        <title>Django for Rubyists (on Rails)</title>
-        <description>&lt;section data-markdown=&quot;&quot; data-separator=&quot;^\n---\n$&quot;&gt;
-  &lt;script type=&quot;text/template&quot;&gt;
-    # Django for Rubyists (on Rails)
-    Monica Georgieva @spiralnegative
-
-    ---
-
-    &lt;!-- .slide: data-background=&quot;/assets/images/parks_and_recreation_1.gif&quot; --&gt;
-    ## &lt;span style=&quot;color:#fdf6e3&quot;&gt;Basics&lt;/span&gt;
-
-    ---
-
-    ## Project setup
-    ### Rails
-    ```shell
-    gem install rails
-    rails new rails_project
-    ```
-    ### Django
-    ```shell
-    pip3 install Django
-    django-admin.py startproject django_project
-    ```
-
-    ---
-
-    ## Initial file structure
-    ### Rails
-    ```shell
-    $ tree -L 2
-    .
-    ├── app
-    │   ├── assets
-    │   ├── channels
-    │   ├── controllers
-    │   ├── helpers
-    │   ├── javascript
-    │   ├── jobs
-    │   ├── mailers
-    │   ├── models
-    │   └── views
-    ├── bin
-    │   ├── bundle
-    │   ├── rails
-    │   ├── rake
-    │   ├── setup
-    │   ├── spring
-    │   └── yarn
-    ├── config
-    │   ├── application.rb
-    │   ├── boot.rb
-    │   ├── cable.yml
-    │   ├── credentials.yml.enc
-    │   ├── database.yml
-    │   ├── environment.rb
-    │   ├── environments
-    │   ├── initializers
-    │   ├── locales
-    │   ├── master.key
-    │   ├── puma.rb
-    │   ├── routes.rb
-    │   ├── spring.rb
-    │   └── storage.yml
-    ├── config.ru
-    ├── db
-    │   └── seeds.rb
-    ├── Gemfile
-    ├── Gemfile.lock
-    ├── lib
-    │   ├── assets
-    │   └── tasks
-    ├── log
-    ├── package.json
-    ├── public
-    │   ├── 404.html
-    │   ├── 422.html
-    │   ├── 500.html
-    │   ├── apple-touch-icon.png
-    │   ├── apple-touch-icon-precomposed.png
-    │   ├── favicon.ico
-    │   └── robots.txt
-    ├── Rakefile
-    ├── README.md
-    ├── storage
-    ├── test
-    │   ├── application_system_test_case.rb
-    │   ├── channels
-    │   ├── controllers
-    │   ├── fixtures
-    │   ├── helpers
-    │   ├── integration
-    │   ├── mailers
-    │   ├── models
-    │   ├── system
-    │   └── test_helper.rb
-    ├── tmp
-    │   ├── cache
-    │   ├── pids
-    │   └── storage
-    └── vendor
-    ```
-
-    ---
-
-    ## Initial file structure
-    ### Django
-    ```shell
-    $ tree -L 2
-    .
-    ├── django_project
-    │   ├── __init__.py
-    │   ├── settings.py
-    │   ├── urls.py
-    │   └── wsgi.py
-    └── manage.py
-    ```
-
-    ---
-
-    ## Initial file structure
-    ### Django
-    ```shell
-    $ django-admin.py startapp app
-    $ tree app
-    app
-    ├── admin.py
-    ├── apps.py
-    ├── __init__.py
-    ├── migrations
-    │   └── __init__.py
-    ├── models.py
-    ├── tests.py
-    └── views.py
-    ```
-
-    ---
-
-    ## Configuration
-    |Rails|Django|
-    |-----|------|
-    |config/database.yml|settings.py or settings/*.py|
-    |config/environments/*.rb|settings.py or settings/*.py|
-    |config/routes.rb|urls.py|
-
-    ---
-
-    ## Management
-    |Rails|Django|
-    |-----|------|
-    |rails s|python3 ./manage.py runserver|
-    |rails c|python3 ./manage.py shell|
-    |rails db|python3 ./manage.py dbshell|
-    |rake db:migrate|python3 ./manage.py migrate|
-
-    ---
-
-    ## MVC
-    |Rails|Django|
-    |-----|------|
-    |db/schema.rb||
-    |app/models/*.rb|app/models.py or app/models/*.py|
-    |app/views/*|app/templates/*|
-    |app/controllers/*.rb|app/views.py|
-  &lt;/script&gt;
-&lt;/section&gt;
-
-&lt;section data-background=&quot;/assets/images/parks_and_recreation_2.gif&quot;&gt;
-  &lt;h2 style=&quot;color:#fdf6e3;&quot;&gt;ORM&lt;/h2&gt;
-  &lt;aside class=&quot;notes&quot;&gt;
-  Rails: ActiveRecord does not hold all the truth about the model; tables are defined using migrations
-
-  Django: things are all about the models; schema is defined in the class and Django takes care of database migrations
-  &lt;/aside&gt;
-&lt;/section&gt;
-
-&lt;section data-markdown=&quot;&quot; data-separator=&quot;^\n---\n$&quot;&gt;
-  &lt;script type=&quot;text/template&quot;&gt;
-    ## Creating
-    ### Rails
-    ```ruby
-      User.create(name: 'Molly Millions', email: 'molly@sprawl.net')
-    ```
-
-    ### Django
-    ```python
-      User.objects.create(name='Molly Millions', email='molly@sprawl.net')
-    ```
-
-    ---
-
-    ## Selecting
-    ### Rails
-    ```ruby
-    User.find(505)
-    # =&gt; #&lt;User:0x00007fb98b737d18&gt;
-    # id: 505,
-    # name: 'Johnny Mnemonic',
-    # email: 'johnny@sprawl.net'
-    # ...
-
-    User.find_by(name: 'Johnny Mnemonic')
-    User.where(name: 'Johnny Mnemonic')
-
-    User.where(&quot;email LIKE 'Johnny%'&quot;)
-    User.where(&quot;email LIKE '%Johnny%'&quot;)
-    ```
-
-    ---
-
-    ## Selecting
-    ### Django
-    ```python
-    User.objects.get(id=505)
-    # &lt;User: User object (505)&gt;
-    User.objects.get(id=505).__dict__
-    # {'name': 'Johnny Mnemonic', 'email': 'johnny@sprawl.net', id: 505 ...}
-
-    User.objects.get(name='Johnny Mnemonic')
-    # get() returned more than one User -- it returned 2!
-    User.objects.filter(name='Johnny Mnemonic')
-
-    User.objects.filter(email__startswith='Johnny')
-    User.objects.filter(email__contains='Johnny')
-    ```
-
-    ---
-
-    ## Selecting last
-    ### Rails
-    ```ruby
-    User.last()
-
-    User.last(2)
-    ```
-    ### Django
-    ```python
-    User.objects.all().last()
-
-    User.objects.all()[:-2] # AssertionError: Negative indexing is not supported.
-    User.objects.all().order_by('-id')[0:2]
-    ```
-
-    ---
-
-    ## Plucking
-    ### Rails
-    ```ruby
-    User.pluck(:email)
-
-    User.pluck(:id, :email)
-    ```
-
-    ### Django
-    ```python
-    User.objects.values_list('email', flat=True)
-
-    User.objects.values('id', 'email')
-    ```
-
-    ---
-
-    ## Updating
-    ### Rails
-    ```ruby
-      User.find(5).update(email: 'razorgirl@sprawl.net')
-
-      User.where(email: 'unknown').update_all(email: nil)
-    ```
-
-    ### Django
-    ```python
-      User.objects.get(id=5).update(email='razorgirl@sprawl.net')
-
-      User.objects.filter(email='unknown').update(email=None)
-    ```
-
-    ---
-
-    ## Destroying
-    ### Rails
-    ```ruby
-    User.find(404).destroy
-
-    User.all.destroy
-    ```
-
-    ### Django
-    ```python
-    User.objects.get(id=404).delete()
-
-    User.objects.all().delete()
-    ```
-
-    ---
-
-    ## Joining
-    ### Rails
-    ```ruby
-      User.joins(:articles).where(articles: { category: 'cyberpunk' })
-    ```
-
-    ### Django
-    ```python
-      User.objects.filter(article__category='cyberpunk')
-    ```
-
-    ---
-
-    &lt;!-- .slide: data-background=&quot;/assets/images/parks_and_recreation_3.gif&quot; --&gt;
-    ## &lt;span style=&quot;color:#fdf6e3&quot;&gt;Even more...&lt;/span&gt;
-  &lt;/script&gt;
-&lt;/section&gt;
-
-&lt;section&gt;
-  &lt;h2&gt;Overriding&lt;/h2&gt;
-  &lt;h3&gt;Rails&lt;/h3&gt;
-  &lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;
-class User &amp;lt; ActiveRecord::Base
-  def birthdate=(value)
-    # do something with value
-    super(value)
-  end
-end
-  &lt;/code&gt;&lt;/pre&gt;
-&lt;/section&gt;
-
-&lt;section&gt;
-  &lt;h2&gt;Overriding&lt;/h2&gt;
-  &lt;h3&gt;Django&lt;/h3&gt;
-  &lt;pre&gt;&lt;code class=&quot;python&quot;&gt;
-class User(models.Model):
-    _birthdate = models.DateField(db_column=&quot;birthdate&quot;)
-
-    @property
-    def birthdate(self):
-        return self._birthdate
-
-    @birthdate.setter
-    def birthdate(self, value):
-        # do something with value
-        self._birthdate = value
-  &lt;/code&gt;&lt;/pre&gt;
-&lt;/section&gt;
-
-&lt;section&gt;
-  &lt;h2&gt;self(less)&lt;/h2&gt;
-  &lt;pre&gt;&lt;code class=&quot;python&quot;&gt;
-class User:
-    def __init__(name, email): # self is missing
-        self.name = name
-        self.email = email
-
-&amp;gt;&amp;gt;&amp;gt; User(name='Rose Kolodny', email='rose-k@sprawl.net')
-    Traceback (most recent call last):
-    # ...
-    TypeError: __init__() got multiple values for argument 'name'
-  &lt;/code&gt;&lt;/pre&gt;
-&lt;/section&gt;
-
-&lt;section data-background=&quot;/assets/images/parks_and_recreation_4.gif&quot;&gt;
-  &lt;h2 style=&quot;color:#fdf6e3;&quot;&gt;Thank you!&lt;/h2&gt;
-&lt;/section&gt;
-</description>
-        <pubDate>Fri, 22 Nov 2019 20:47:00 +0200</pubDate>
-        <link>http://localhost:4000//djando-for-rubyists-on-rails.html</link>
-        <guid isPermaLink="true">http://localhost:4000//djando-for-rubyists-on-rails.html</guid>
-        
-        <category>programming</category>
-        
-        <category>presentation</category>
-        
-        
-        <category>presentation</category>
-        
-      </item>
+      
     
-      <item>
-        <title>Rubyist's guide to Python</title>
-        <description>&lt;section&gt;
-  &lt;h1&gt;Rubyist's guide to Python&lt;/h1&gt;
-  &lt;p&gt;
-    Monica Georgieva @spiralnegative
-  &lt;/p&gt;
-&lt;/section&gt;
-
-&lt;section data-background=&quot;/assets/images/it_crowd_1.gif&quot;&gt;
-  &lt;h2 style=&quot;color:#fdf6e3;&quot;&gt;Main differences&lt;/h2&gt;
-&lt;/section&gt;
-
-&lt;section&gt;
-  &lt;h2&gt;Use cases&lt;/h2&gt;
-  &lt;h3&gt;Ruby&lt;/h3&gt;
-  quick development of web applications
-  &lt;br /&gt;fast prototyping
-  &lt;br /&gt;command line utilities, tooling and sysadmin work
-  &lt;br /&gt;
-  &lt;br /&gt;
-  &lt;h3&gt;Python&lt;/h3&gt;
-  data-heavy sites and servers
-  &lt;br /&gt;usage by non-programmers
-  &lt;br /&gt;big data, math problems and scientific research
-&lt;/section&gt;
-
-&lt;section&gt;
-  &lt;h2&gt;Characteristics&lt;/h2&gt;
-  &lt;h3&gt;Ruby&lt;/h3&gt;
-  freedom and flexibility to do things in different ways
-  &lt;br /&gt;expressive, elegant and efficient
-  &lt;br /&gt;very web focused and innovates quicker
-  &lt;br /&gt;
-  &lt;br /&gt;
-  &lt;h3&gt;Python&lt;/h3&gt;
-  explicit - simplicity over flexibility
-  &lt;br /&gt;quicker to learn, conservative and efficient
-  &lt;br /&gt;stable and diverse, but innovates slower
-&lt;/section&gt;
-
-&lt;section&gt;
-  &lt;h2&gt;Popular applications&lt;/h2&gt;
-  &lt;h3&gt;Ruby&lt;/h3&gt;
-  Basecamp, Twitter (originally), GitHub, Airbnb
-  &lt;br /&gt;
-  &lt;br /&gt;
-  &lt;h3&gt;Python&lt;/h3&gt;
-  YouTube, Instagram, Spotify, Reddit
-&lt;/section&gt;
-
-&lt;section&gt;
-  &lt;h2&gt;Libraries&lt;/h2&gt;
-  &lt;h3&gt;Ruby&lt;/h3&gt;
-  &lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;gem install pry&lt;/code&gt;&lt;/pre&gt;
-  &lt;br /&gt;
-  &lt;br /&gt;
-  &lt;h3&gt;Python&lt;/h3&gt;
-  &lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;pip3 install numpy&lt;/code&gt;&lt;/pre&gt;
-&lt;/section&gt;
-
-&lt;section&gt;
-  &lt;h2&gt;Testing and debugging&lt;/h2&gt;
-  &lt;h3&gt;Ruby&lt;/h3&gt;
-  RSpec and Cucumber
-  &lt;br /&gt;pry and byebug
-  &lt;br /&gt;
-  &lt;br /&gt;
-  &lt;h3&gt;Python&lt;/h3&gt;
-  PyTest and unittest
-  &lt;br /&gt;pdb and PuDB
-&lt;/section&gt;
-
-&lt;section data-background=&quot;/assets/images/it_crowd_2.gif&quot;&gt;
-  &lt;h2 style=&quot;color:#fdf6e3;&quot;&gt;Ruby vs Python&lt;/h2&gt;
-&lt;/section&gt;
-
-&lt;section&gt;
-  &lt;h2&gt;Closures&lt;/h2&gt;
-  &lt;h3&gt;Ruby&lt;/h3&gt;
-  &lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;
-[5,6,7].each { |n| puts &quot;#{n}!!!&quot; }
-          &lt;/code&gt;&lt;/pre&gt;
-          &lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;
-def return_from_proc
-  a = Proc.new { return 10 }.call
-  puts &quot;This will never be printed.&quot;
-end
-          &lt;/code&gt;&lt;/pre&gt;
-          &lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;
-def return_from_lambda
-  a = lambda { return 10 }.call
-  puts &quot;The lambda returned #{a}, and this will be printed.&quot;
-end
-  &lt;/code&gt;&lt;/pre&gt;
-&lt;/section&gt;
-
-&lt;section&gt;
-  &lt;h2&gt;Closures&lt;/h2&gt;
-  &lt;h3&gt;Python&lt;/h3&gt;
-  &lt;pre&gt;&lt;code class=&quot;python&quot;&gt;
-def outer_function(x):
-  def inner_increment(x):
-      return x + 2
-
-  y = inner_increment(x)
-  print(x, y)
-
-outer_function(5)
-# 5 7
-  &lt;/code&gt;&lt;/pre&gt;
-&lt;/section&gt;
-
-&lt;section&gt;
-  &lt;h2&gt;Functions as arguments&lt;/h2&gt;
-  &lt;h3&gt;Ruby&lt;/h3&gt;
-  &lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;
-def run_proc_with_random_number(proc)
-  proc.call(rand)
-end
-
-proc = Proc.new { |number| puts &quot;#{number}!!!&quot; }
-run_proc_with_random_number(proc)
-  &lt;/code&gt;&lt;/pre&gt;
-&lt;/section&gt;
-
-&lt;section&gt;
-  &lt;h2&gt;Functions as arguments&lt;/h2&gt;
-  &lt;h3&gt;Python&lt;/h3&gt;
-  &lt;pre&gt;&lt;code class=&quot;python&quot;&gt;
-from random import *
-
-def run_with_random_number(func):
-  func(random())
-
-def exclaim(number):
-  print(f&quot;{number}!!!&quot;)
-
-run_with_random_number(exclaim)
-  &lt;/code&gt;&lt;/pre&gt;
-&lt;/section&gt;
-
-&lt;section&gt;
-  &lt;h2&gt;Multiple inheritance&lt;/h2&gt;
-  &lt;h3&gt;Ruby&lt;/h3&gt;
-  &lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;
-module Cupcake
-  def sprinkle; end
-end
-
-module Cookie
-  def glaze; end
-end
-
-class Dessert
-  include Cupcake
-  include Cookie
-
-  def bake; end
-end
-  &lt;/code&gt;&lt;/pre&gt;
-&lt;/section&gt;
-
-&lt;section&gt;
-  &lt;h2&gt;Multiple inheritance&lt;/h2&gt;
-  &lt;h3&gt;Python&lt;/h3&gt;
-  &lt;pre&gt;&lt;code class=&quot;python&quot;&gt;
-class Cupcake:
-  def sprinkle(self):
-      pass
-
-class Cookie:
-  def glaze(self):
-      pass
-
-class Dessert(Cupcake, Cookie):
-  def bake(self):
-      pass
-  &lt;/code&gt;&lt;/pre&gt;
-&lt;/section&gt;
-
-&lt;section&gt;
-  &lt;h2&gt;To return or not to return?&lt;/h2&gt;
-  &lt;h3&gt;Ruby&lt;/h3&gt;
-  &lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;
-def valid_dna?(sequence)
-  sequence.chars.all? { |char| 'ACGT'.include? char }
-end
-  &lt;/code&gt;&lt;/pre&gt;
-  &lt;br /&gt;
-  &lt;h3&gt;Python&lt;/h3&gt;
-  &lt;pre&gt;&lt;code class=&quot;python&quot;&gt;
-def valid_dna(sequence):
-  return all(char in 'ACGT' for char in sequence)
-  &lt;/code&gt;&lt;/pre&gt;
-&lt;/section&gt;
-
-&lt;section&gt;
-  &lt;h2&gt;The missing case&lt;/h2&gt;
-  &lt;h3&gt;Ruby&lt;/h3&gt;
-  &lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;
-case x
-when 0
-  puts &quot;That's a good start&quot;
-when 1..5
-  puts 'Getting there...'
-when 'Ruby'
-  puts 'Banitsa!'
-when 42
-  puts 'The answer'
-else
-  puts &quot;What should I do with #{x}?&quot;
-end
-  &lt;/code&gt;&lt;/pre&gt;
-&lt;/section&gt;
-
-&lt;section&gt;
-  &lt;h2&gt;The missing case&lt;/h2&gt;
-  &lt;h3&gt;Python&lt;/h3&gt;
-  &lt;pre&gt;&lt;code class=&quot;python&quot;&gt;
-def f(x):
-  return {
-      0: &quot;That's a good start&quot;,
-      5: 'Getting there...',
-      'Ruby': 'Banitsa',
-      42: 'The answer'
-  }.get(x, f'What should I do with {x}')
-  &lt;/code&gt;&lt;/pre&gt;
-&lt;/section&gt;
-
-&lt;section&gt;
-  &lt;h2&gt;Ternary operators&lt;/h2&gt;
-  &lt;h3&gt;Ruby&lt;/h3&gt;
-  &lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;
-awake &amp;amp;&amp;amp; ready ? 'go to work' : 'wake up and get ready'
-if awake &amp;amp;&amp;amp; ready then 'go to work' else 'wake up and get ready' end
-  &lt;/code&gt;&lt;/pre&gt;
-  &lt;br /&gt;
-  &lt;h3&gt;Python&lt;/h3&gt;
-  &lt;pre&gt;&lt;code class=&quot;python&quot;&gt;
-'go to work' if awake and ready else 'wake up and get ready'
-  &lt;/code&gt;&lt;/pre&gt;
-&lt;/section&gt;
-
-&lt;section&gt;
-  &lt;h2&gt;Flatten and reduce&lt;/h2&gt;
-  &lt;h3&gt;Ruby&lt;/h3&gt;
-  &lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;
-numbers = [[1, 2], [3, 4, 5], [6]]
-numbers.flatten
-# =&amp;gt; [1, 2, 3, 4, 5, 6]
-
-numbers = _
-numbers.reduce(100, :+)
-# =&amp;gt; 121
-  &lt;/code&gt;&lt;/pre&gt;
-&lt;/section&gt;
-
-&lt;section&gt;
-  &lt;h2&gt;Flatten and reduce&lt;/h2&gt;
-  &lt;h3&gt;Python&lt;/h3&gt;
-  &lt;pre&gt;&lt;code class=&quot;python&quot;&gt;
-numbers = [[1, 2], [3, 4, 5], [6]]
-[y for x in numbers for y in x]
-# [1, 2, 3, 4, 5, 6]
-
-import itertools
-list(itertools.chain(*numbers))
-# [1, 2, 3, 4, 5, 6]
-
-numbers = _
-from functools import reduce
-reduce((lambda x, y: x + y), [100] + numbers)
-  &lt;/code&gt;&lt;/pre&gt;
-&lt;/section&gt;
-
-&lt;section&gt;
-  &lt;h2&gt;Adding an element to a list&lt;/h2&gt;
-  &lt;h3&gt;Ruby&lt;/h3&gt;
-  &lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;
-animals = []
-animals[5] = 'rabbit'
-animals
-# =&amp;gt; [nil, nil, nil, nil, nil, 'rabbit']
-  &lt;/code&gt;&lt;/pre&gt;
-  &lt;h3&gt;Python&lt;/h3&gt;
-  &lt;pre&gt;&lt;code class=&quot;python&quot;&gt;
-animals = []
-animals[5] = 'rabbit'
-# IndexError: list assignment index out of range
-  &lt;/code&gt;&lt;/pre&gt;
-&lt;/section&gt;
-&lt;section data-background=&quot;/assets/images/it_crowd_3.gif&quot;&gt;
-  &lt;h2 style=&quot;color:#fdf6e3;&quot;&gt;Thank you!&lt;/h2&gt;
-&lt;/section&gt;
-</description>
-        <pubDate>Tue, 08 Oct 2019 22:20:00 +0300</pubDate>
-        <link>http://localhost:4000//rubyists-guide-to-python.html</link>
-        <guid isPermaLink="true">http://localhost:4000//rubyists-guide-to-python.html</guid>
-        
-        <category>programming</category>
-        
-        <category>presentation</category>
-        
-        
-        <category>presentation</category>
-        
-      </item>
+      
     
-      <item>
-        <title>Film photography</title>
-        <description>&lt;p&gt;In early 2000s, when I got my first digital camera, I never looked back to the old, basic film cameras that my parents used to take photos with when I was younger. Digital cameras were the only way to get decent photos as mobile phones with cameras were yet to become popular. Things changed a lot since then and taking a photograph has become like a second nature, muscle memory. But I guess I’m too nostalgic and sentimental to be that involved in this new, shiny technology.&lt;/p&gt;
+      
+        <item>
+          <title>Film photography</title>
+          <description>&lt;p&gt;In early 2000s, when I got my first digital camera, I never looked back to the old, basic film cameras that my parents used to take photos with when I was younger. Digital cameras were the only way to get decent photos as mobile phones with cameras were yet to become popular. Things changed a lot since then and taking a photograph has become like a second nature, muscle memory. But I guess I’m too nostalgic and sentimental to be that involved in this new, shiny technology.&lt;/p&gt;
 
 &lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot; data-footer=&quot;true&quot; href=&quot;https://www.flickr.com/photos/147251133@N04/33117822374/in/dateposted-public/&quot; title=&quot;TV Tower&quot;&gt;&lt;img src=&quot;https://live.staticflickr.com/2806/33117822374_9e80326267_z.jpg&quot; width=&quot;640&quot; height=&quot;424&quot; alt=&quot;TV Tower&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
 
@@ -780,53 +98,26 @@ animals[5] = 'rabbit'
   &lt;li&gt;&lt;a href=&quot;https://expertphotography.com/why-you-should-shoot-on-film/&quot;&gt;Film Photography Benefits: Why I Still Shoot on Film (and You Should Too!)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Fri, 03 May 2019 16:37:00 +0300</pubDate>
-        <link>http://localhost:4000//film-photography.html</link>
-        <guid isPermaLink="true">http://localhost:4000//film-photography.html</guid>
-        
-        <category>photography</category>
-        
-        <category>hobbies</category>
-        
-        
-        <category>article</category>
-        
-      </item>
+          <pubDate>Fri, 03 May 2019 16:37:00 +0300</pubDate>
+          <link>http://localhost:4000//film-photography.html</link>
+          <guid isPermaLink="true">http://localhost:4000//film-photography.html</guid>
+          
+          <category>photography</category>
+          
+          <category>hobbies</category>
+          
+          
+          <category>article</category>
+          
+        </item>
+      
     
-      <item>
-        <title>1 Second Everyday - My Life at 27</title>
-        <description>&lt;p&gt;My new &lt;a href=&quot;http://1se.co/&quot;&gt;1 Second Everyday&lt;/a&gt; video is ready. Enjoy the moments to remember along with the random ones, together capturing one of the best years in my life.&lt;/p&gt;
-
-&lt;h3 id=&quot;music&quot;&gt;Music&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://freemusicarchive.org/music/Ryan_Andersen/Never_Sleep_-_Indie_Rock/London_Calling&quot;&gt;&lt;strong&gt;London Calling&lt;/strong&gt; by Ryan Andersen&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://freemusicarchive.org/music/Ryan_Andersen/Swimming/Easy_Feels&quot;&gt;&lt;strong&gt;Easy Feels&lt;/strong&gt; by Ryan Andersen&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://freemusicarchive.org/music/Ryan_Andersen/Swimming/longdayz&quot;&gt;&lt;strong&gt;longdayz&lt;/strong&gt; by Ryan Andersen&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;thanks&quot;&gt;Thanks&lt;/h3&gt;
-&lt;p&gt;Thanks to my SO and all of you who are in this video :)&lt;/p&gt;
-
-&lt;iframe src=&quot;https://player.vimeo.com/video/329670993&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a href=&quot;https://vimeo.com/329670993&quot;&gt;1 Second Everyday - My Life at 27&lt;/a&gt; from &lt;a href=&quot;https://vimeo.com/user65236944&quot;&gt;M&lt;/a&gt; on &lt;a href=&quot;https://vimeo.com&quot;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Note: if you’re in the video, you’ll have received the password.&lt;/em&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 10 Apr 2019 23:00:00 +0300</pubDate>
-        <link>http://localhost:4000//1-second-everyday-my-life-at-27.html</link>
-        <guid isPermaLink="true">http://localhost:4000//1-second-everyday-my-life-at-27.html</guid>
-        
-        <category>video</category>
-        
-        
-        <category>1se</category>
-        
-      </item>
+      
     
-      <item>
-        <title>Botanical gardens I visited in 2018</title>
-        <description>&lt;p&gt;2018 has come to an end and it’s time for the overview of the botanical gardens I visited in the past 12 months. I’m really glad I had the chance to go on a few business trips which contributed to this list and made it possible to see places that I wouldn’t necessary visit this year. I’ve recently read &lt;a href=&quot;https://www.haarkon.co.uk/shop/glasshouse-greenhouse&quot;&gt;“Glasshouse Greenhouse”&lt;/a&gt; - a worldwide journey through botanical spaces and a great inspiration for me, and I already added a few new places to my bucket list.&lt;/p&gt;
+      
+        <item>
+          <title>Botanical gardens I visited in 2018</title>
+          <description>&lt;p&gt;2018 has come to an end and it’s time for the overview of the botanical gardens I visited in the past 12 months. I’m really glad I had the chance to go on a few business trips which contributed to this list and made it possible to see places that I wouldn’t necessary visit this year. I’ve recently read &lt;a href=&quot;https://www.haarkon.co.uk/shop/glasshouse-greenhouse&quot;&gt;“Glasshouse Greenhouse”&lt;/a&gt; - a worldwide journey through botanical spaces and a great inspiration for me, and I already added a few new places to my bucket list.&lt;/p&gt;
 
 &lt;h2 id=&quot;berlin-dahlem-botanical-garden-and-botanical-museum-berlin-germany&quot;&gt;Berlin-Dahlem Botanical Garden and Botanical Museum, Berlin, Germany&lt;/h2&gt;
 &lt;p&gt;One of the disadvantages of travelling in early Spring is the fact that the days are still short. While visiting Berlin at the beginning of March, me and my SO had a decent list of places to see and ended reaching the botanical garden after 5 pm. After wandering around a frozen pond and alleys with outdoor plants that were just beginning to wake up from their winter sleep, we went to the 6,000 m² glasshouse complex. House after house, we kept on exploring the collections of plants and only realised how much time has passed when the sun set, leaving us with the indoor artificial lights in yellow hues. When we finally went outside it was too dark to appreciate the rest of the garden so we called it a day and promised ourselves to come back again.&lt;/p&gt;
@@ -864,67 +155,26 @@ animals[5] = 'rabbit'
 
 &lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot; data-footer=&quot;true&quot; href=&quot;https://www.flickr.com/photos/147251133@N04/46517205901/in/dateposted-public/&quot; title=&quot;Barbican Conservatory, London, England&quot;&gt;&lt;img src=&quot;https://farm5.staticflickr.com/4908/46517205901_0d15be0b2f_c.jpg&quot; width=&quot;800&quot; height=&quot;450&quot; alt=&quot;Barbican Conservatory, London, England&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
 </description>
-        <pubDate>Sat, 29 Dec 2018 16:57:00 +0200</pubDate>
-        <link>http://localhost:4000//botanical-gardens-i-visited-in-2018.html</link>
-        <guid isPermaLink="true">http://localhost:4000//botanical-gardens-i-visited-in-2018.html</guid>
-        
-        <category>photography</category>
-        
-        <category>traveling</category>
-        
-        
-        <category>article</category>
-        
-      </item>
+          <pubDate>Sat, 29 Dec 2018 16:57:00 +0200</pubDate>
+          <link>http://localhost:4000//botanical-gardens-i-visited-in-2018.html</link>
+          <guid isPermaLink="true">http://localhost:4000//botanical-gardens-i-visited-in-2018.html</guid>
+          
+          <category>photography</category>
+          
+          <category>traveling</category>
+          
+          
+          <category>article</category>
+          
+        </item>
+      
     
-      <item>
-        <title>1 Second Everyday - My Life at 26</title>
-        <description>&lt;p&gt;The time has come for a new &lt;a href=&quot;http://1se.co/&quot;&gt;1 Second Everyday&lt;/a&gt; video.&lt;/p&gt;
-
-&lt;h3 id=&quot;faq&quot;&gt;FAQ&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Don’t you get bored of making this?&lt;/strong&gt;
-No, I really love the final result and making a video everyday has become some sort of a habbit.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Don’t you ever forget to make a video for the day?&lt;/strong&gt;
-To be honest, there were a couple of uneventful but quite busy days when I just didn’t find the time to make a video. That’s why I made one on the next day, doing something that I had done the previous day (commuting, making a cup of tea, etc.)&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Where do you find motivation/ideas?&lt;/strong&gt;
-While there are days so full of events that I find it hard to choose one video only, there are also pretty dull days. And that’s okay - just make a video of something trivial. Someone you meet, something you cook or eat, something beautiful - it doesn’t matter as long as it makes you smile.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;How did you add music?&lt;/strong&gt;
-After compiling the final video in the app, you can use any video editing program. I used &lt;em&gt;Adobe Premiere Pro&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Will you continue making this?&lt;/strong&gt;
-Absolutely - in fact, another one is in progress.&lt;/p&gt;
-
-&lt;h3 id=&quot;music&quot;&gt;Music&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://freemusicarchive.org/music/Miseryslims/EP2_1301/Knights_Out&quot;&gt;&lt;strong&gt;Knights Out&lt;/strong&gt; by Miseryslims&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://freemusicarchive.org/music/Poly_Action/Babys_First_Rock_n_Roll/Ten_Hundred_Years&quot;&gt;&lt;strong&gt;Ten Hundred Years&lt;/strong&gt; by Poly Action&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;thanks&quot;&gt;Thanks&lt;/h3&gt;
-&lt;p&gt;Thanks to my SO and all of you who are in this video :)&lt;/p&gt;
-
-&lt;iframe src=&quot;https://player.vimeo.com/video/263854702&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a href=&quot;https://vimeo.com/263854702&quot;&gt;1 Second Everyday - My Life at 26&lt;/a&gt; from &lt;a href=&quot;https://vimeo.com/user65236944&quot;&gt;M&lt;/a&gt; on &lt;a href=&quot;https://vimeo.com&quot;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Note: The video will be public for a few days only. If you want to see it after that, just ask.&lt;/em&gt;&lt;/p&gt;
-</description>
-        <pubDate>Tue, 10 Apr 2018 15:00:00 +0300</pubDate>
-        <link>http://localhost:4000//1-second-everyday-my-life-at-26.html</link>
-        <guid isPermaLink="true">http://localhost:4000//1-second-everyday-my-life-at-26.html</guid>
-        
-        <category>video</category>
-        
-        
-        <category>1se</category>
-        
-      </item>
+      
     
-      <item>
-        <title>Botanical gardens I visited in 2017</title>
-        <description>&lt;p&gt;My love for plants grew a lot this year. Not only I doubled the plants in my home but I got passionate about visiting botanical gardens. It all began one summer day when I went to one of the two botanical gardens in my city. It was so peaceful, green and interesting that I asked myself - why don’t I start visiting the botanical gardens in the cities I visit? And I did. Here are the 5 gardens I visited in 2017.&lt;/p&gt;
+      
+        <item>
+          <title>Botanical gardens I visited in 2017</title>
+          <description>&lt;p&gt;My love for plants grew a lot this year. Not only I doubled the plants in my home but I got passionate about visiting botanical gardens. It all began one summer day when I went to one of the two botanical gardens in my city. It was so peaceful, green and interesting that I asked myself - why don’t I start visiting the botanical gardens in the cities I visit? And I did. Here are the 5 gardens I visited in 2017.&lt;/p&gt;
 
 &lt;h2 id=&quot;botanical-garden-of-the-bulgarian-academy-of-sciences-sofia-bulgaria&quot;&gt;Botanical garden of the Bulgarian Academy of Sciences, Sofia, Bulgaria&lt;/h2&gt;
 &lt;p&gt;The larger botanical garden in Sofia is a part of the Bulgarian Academy of Sciences and has inherited the Royal Botanical Garden, founded more than 100 years ago in the center of Sofia. The present location of the garden is between Boyana and Dragalevtsi neighbourhoods. Although there are parts of the garden that consist of vast empty fields that haven’t been utilized, there is the beautiful rose garden and greenhouses that have one of the richest collections of tropical and subtropical plants on the Balkans. There are also many interesting plants for sale in the greenhouses at decent prices.&lt;/p&gt;
@@ -967,50 +217,26 @@ Absolutely - in fact, another one is in progress.&lt;/p&gt;
 
 &lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot; data-footer=&quot;true&quot; href=&quot;https://www.flickr.com/photos/147251133@N04/38701143104/in/dateposted-public/&quot; title=&quot;Botanical garden, Sofia&quot;&gt;&lt;img src=&quot;https://farm5.staticflickr.com/4593/38701143104_9a4feebc1b_c.jpg&quot; width=&quot;800&quot; height=&quot;450&quot; alt=&quot;Botanical garden, Sofia&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
 </description>
-        <pubDate>Sun, 31 Dec 2017 13:37:00 +0200</pubDate>
-        <link>http://localhost:4000//botanical-gardens-i-visited-in-2017.html</link>
-        <guid isPermaLink="true">http://localhost:4000//botanical-gardens-i-visited-in-2017.html</guid>
-        
-        <category>photography</category>
-        
-        <category>traveling</category>
-        
-        
-        <category>article</category>
-        
-      </item>
+          <pubDate>Sun, 31 Dec 2017 13:37:00 +0200</pubDate>
+          <link>http://localhost:4000//botanical-gardens-i-visited-in-2017.html</link>
+          <guid isPermaLink="true">http://localhost:4000//botanical-gardens-i-visited-in-2017.html</guid>
+          
+          <category>photography</category>
+          
+          <category>traveling</category>
+          
+          
+          <category>article</category>
+          
+        </item>
+      
     
-      <item>
-        <title>1 Second Everyday - My Life at 25</title>
-        <description>&lt;p&gt;On my last birthday I decided to start a &lt;a href=&quot;http://1se.co/&quot;&gt;1 Second Everyday&lt;/a&gt; project - a video composed of 1 second videos taken every day for a year. This became some sort of a visual diary capturing random moments of my life at 25.&lt;/p&gt;
-
-&lt;h3 id=&quot;the-app&quot;&gt;The app&lt;/h3&gt;
-&lt;p&gt;The 1SE application has a really nice interface and does what it is supposed to do - clip and store your videos on a timeline. It comes with nice additions like reminders and backup.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Note: in the current version 2.5.4 for Android there is a problem with the clipping and compiling with some devices which can be fixed by turning off the &lt;strong&gt;Hardware compile&lt;/strong&gt; option in the Settings.&lt;/em&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;thanks&quot;&gt;Thanks&lt;/h3&gt;
-&lt;p&gt;Big thanks to my SO who gave me interesting ideas, did the video compressing and added some cool music to the final video. Also, thanks to all of you who are in this video ^^&lt;/p&gt;
-
-&lt;iframe src=&quot;https://player.vimeo.com/video/212460622&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a href=&quot;https://vimeo.com/212460622&quot;&gt;1 Second Everyday - My Life at 25&lt;/a&gt; from &lt;a href=&quot;https://vimeo.com/user65236944&quot;&gt;M&lt;/a&gt; on &lt;a href=&quot;https://vimeo.com&quot;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;The video will be public for a few days only. If you want to see it after that, just ask :)&lt;/em&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sat, 08 Apr 2017 17:38:00 +0300</pubDate>
-        <link>http://localhost:4000//1-second-everyday-my-life-at-25.html</link>
-        <guid isPermaLink="true">http://localhost:4000//1-second-everyday-my-life-at-25.html</guid>
-        
-        <category>video</category>
-        
-        
-        <category>1se</category>
-        
-      </item>
+      
     
-      <item>
-        <title>Reasons why I don't use Facebook </title>
-        <description>&lt;p&gt;It has been a few years since I deactivated my Facebook account and I don’t regret it. People sometimes ask me why - well, I am neither asocial nor friendless. I am just one of &lt;em&gt;those people who don’t use Facebook&lt;/em&gt;.&lt;/p&gt;
+      
+        <item>
+          <title>Reasons why I don't use Facebook </title>
+          <description>&lt;p&gt;It has been a few years since I deactivated my Facebook account and I don’t regret it. People sometimes ask me why - well, I am neither asocial nor friendless. I am just one of &lt;em&gt;those people who don’t use Facebook&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/metadata.jpg&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
 
@@ -1055,37 +281,40 @@ Absolutely - in fact, another one is in progress.&lt;/p&gt;
 &lt;h3 id=&quot;i-dont-want-to-waste-my-time&quot;&gt;I don’t want to waste my time&lt;/h3&gt;
 &lt;p&gt;Time is limited and learning how to prioritize is important. I am trying to reduce the number of things that require my attention so that I can happily apply more attention to those things I care the most about.&lt;/p&gt;
 </description>
-        <pubDate>Thu, 23 Feb 2017 23:38:00 +0200</pubDate>
-        <link>http://localhost:4000//reasons-why-i-dont-use-facebook.html</link>
-        <guid isPermaLink="true">http://localhost:4000//reasons-why-i-dont-use-facebook.html</guid>
-        
-        <category>privacy</category>
-        
-        
-        <category>article</category>
-        
-      </item>
+          <pubDate>Thu, 23 Feb 2017 23:38:00 +0200</pubDate>
+          <link>http://localhost:4000//reasons-why-i-dont-use-facebook.html</link>
+          <guid isPermaLink="true">http://localhost:4000//reasons-why-i-dont-use-facebook.html</guid>
+          
+          <category>privacy</category>
+          
+          
+          <category>article</category>
+          
+        </item>
+      
     
-      <item>
-        <title>Desserts</title>
-        <description>&lt;p&gt;Baking has been one of my hobbies for a few years. I am not sure when did it happen but I feel like I’ve always been interested in cooking. With the rise of the Internet, providing an endless resource of recipes next to my cookbooks, I started cooking different desserts and discovered I mostly enjoy baking muffins and cookies. I decided to upload the photos of my favourite desserts - if you’re curious about a recipe, just drop a comment.&lt;/p&gt;
+      
+        <item>
+          <title>Desserts</title>
+          <description>&lt;p&gt;Baking has been one of my hobbies for a few years. I am not sure when did it happen but I feel like I’ve always been interested in cooking. With the rise of the Internet, providing an endless resource of recipes next to my cookbooks, I started cooking different desserts and discovered I mostly enjoy baking muffins and cookies. I decided to upload the photos of my favourite desserts - if you’re curious about a recipe, just drop a comment.&lt;/p&gt;
 
 &lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot; data-footer=&quot;true&quot; href=&quot;https://www.flickr.com/photos/147251133@N04/albums/72157679803118985&quot; title=&quot;Desserts&quot;&gt;&lt;img src=&quot;https://c1.staticflickr.com/1/649/31789222394_56513576c6_z.jpg&quot; width=&quot;640&quot; height=&quot;480&quot; alt=&quot;Desserts&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
 </description>
-        <pubDate>Tue, 31 Jan 2017 21:09:00 +0200</pubDate>
-        <link>http://localhost:4000//desserts.html</link>
-        <guid isPermaLink="true">http://localhost:4000//desserts.html</guid>
-        
-        <category>desserts</category>
-        
-        <category>hobbies</category>
-        
-        <category>photos</category>
-        
-        
-        <category>article</category>
-        
-      </item>
+          <pubDate>Tue, 31 Jan 2017 21:09:00 +0200</pubDate>
+          <link>http://localhost:4000//desserts.html</link>
+          <guid isPermaLink="true">http://localhost:4000//desserts.html</guid>
+          
+          <category>desserts</category>
+          
+          <category>hobbies</category>
+          
+          <category>photos</category>
+          
+          
+          <category>article</category>
+          
+        </item>
+      
     
   </channel>
 </rss>

@@ -10,6 +10,8 @@ paginate: 15
 baseurl: /
 domain_name: http://spiralnegative.space
 gems: [jekyll-paginate]
+plugins:
+  - jekyll-feed
 
 # Details for the RSS feed generator
 url:            http://spiralnegative.space
