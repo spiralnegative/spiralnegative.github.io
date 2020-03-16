@@ -34,7 +34,7 @@ about: 'about.html'
     </div>
 
     {% for post in paginator.posts %}
-        {% unless post.categories contains "presentation" %}
+        {% if post.categories contains "article" %}
             <article class="post">
                 <header class="post-header">
                     <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
@@ -60,7 +60,7 @@ about: 'about.html'
                     {% endif %}
                 </footer>
             </article>
-        {% endunless %}
+        {% endif %}
 
     <!-- Capser below -->
 <!--     <article class="{{post_class}}">

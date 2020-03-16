@@ -3,6 +3,7 @@ layout: post
 title:  "Film photography"
 date:   2019-05-03 13:37:00
 disqus: true
+categories: article
 tags:
 - photography
 - hobbies

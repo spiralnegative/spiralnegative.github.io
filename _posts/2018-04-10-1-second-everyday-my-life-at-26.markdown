@@ -3,6 +3,7 @@ layout: post
 title:  "1 Second Everyday - My Life at 26"
 date:   2018-04-10 12:00:00
 disqus: true
+categories: 1se
 tags:
 - video
 ---
