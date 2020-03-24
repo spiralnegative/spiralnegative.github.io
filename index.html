@@ -2,7 +2,6 @@
 layout: default
 title: Home
 cover: false
-about: 'about.html'
 ---
 
 <header class="main-header {% if page.cover %}" style="background-image: url({{ page.cover }}) {%else%}no-cover{% endif %}">
@@ -13,6 +12,7 @@ about: 'about.html'
                 </a>
             {% endif %}
         <a class="subscribe-button icon-feed" href="{{ site.baseurl }}feed.xml">Subscribe</a>
+        <a class="subscribe-button" href="/slide-decks/index.html"><div class="fa fa-tv"></div> Slide decks</a>
     </nav>
     <div class="vertical">
         <div class="main-header-content inner">
