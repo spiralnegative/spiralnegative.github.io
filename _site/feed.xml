@@ -5,9 +5,9 @@
     <description>a glitch in your system</description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 20 Apr 2020 17:10:30 +0300</pubDate>
-    <lastBuildDate>Mon, 20 Apr 2020 17:10:30 +0300</lastBuildDate>
-    <generator>Jekyll v3.8.5</generator>
+    <pubDate>Sun, 11 Apr 2021 22:43:06 +0300</pubDate>
+    <lastBuildDate>Sun, 11 Apr 2021 22:43:06 +0300</lastBuildDate>
+    <generator>Jekyll v3.9.0</generator>
     
       
         <item>
@@ -15,12 +15,12 @@
           <description>&lt;p&gt;Generative art, sometimes called algorithmic art, is &lt;a href=&quot;https://en.wikipedia.org/wiki/Generative_art&quot;&gt;defined by Wikipedia&lt;/a&gt; as “art that in whole or in part has been created with the use of an autonomous system (…) [which] can independently determine features of an artwork that would otherwise require decisions made directly by the artist”. Back in my second year at university I studied &lt;strong&gt;Grammars for Generative Art&lt;/strong&gt; which introduced its visual aspect to me. Many years have passed since then and I have only recently started experimenting with it again after browsing &lt;a href=&quot;https://www.reddit.com/r/generative/&quot;&gt;/r/generative&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;context-free&quot;&gt;Context Free&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.contextfreeart.org/index.html&quot;&gt;Context Free&lt;/a&gt; is a digital art program that generates images from instructions in the form of &lt;strong&gt;context free (design) grammar&lt;/strong&gt; called &lt;code class=&quot;highlighter-rouge&quot;&gt;cfdg&lt;/code&gt; files. What a context free grammar typically does is to analyze a sentence of symbols to see if they can reduce to some root symbol. Here the symbol is a shape, composed of some number of primitive shapes (squares, circles, triangles and fills) and non-primitive shapes. A &lt;code class=&quot;highlighter-rouge&quot;&gt;cfdg&lt;/code&gt; file consists of &lt;code class=&quot;highlighter-rouge&quot;&gt;startshape&lt;/code&gt; and some number of &lt;code class=&quot;highlighter-rouge&quot;&gt;shape&lt;/code&gt; rules. These rules provide information about the shape - colour, geometry (position, size, rotation and skew) and Z order (for overlapping shapes).&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.contextfreeart.org/index.html&quot;&gt;Context Free&lt;/a&gt; is a digital art program that generates images from instructions in the form of &lt;strong&gt;context free (design) grammar&lt;/strong&gt; called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cfdg&lt;/code&gt; files. What a context free grammar typically does is to analyze a sentence of symbols to see if they can reduce to some root symbol. Here the symbol is a shape, composed of some number of primitive shapes (squares, circles, triangles and fills) and non-primitive shapes. A &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cfdg&lt;/code&gt; file consists of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;startshape&lt;/code&gt; and some number of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;shape&lt;/code&gt; rules. These rules provide information about the shape - colour, geometry (position, size, rotation and skew) and Z order (for overlapping shapes).&lt;/p&gt;
 
 &lt;h3 id=&quot;example-1&quot;&gt;Example 1&lt;/h3&gt;
-&lt;p&gt;Here is an example of an image with two primitive shapes. The &lt;code class=&quot;highlighter-rouge&quot;&gt;startshape&lt;/code&gt; is called &lt;code class=&quot;highlighter-rouge&quot;&gt;BRANCH&lt;/code&gt; but you can use any name. Note that at least one &lt;code class=&quot;highlighter-rouge&quot;&gt;shape&lt;/code&gt; with the same name should be provided, otherwise &lt;code class=&quot;highlighter-rouge&quot;&gt;Shape with no rules encountered&lt;/code&gt; warning will be displayed. The two shapes are a triangle and a circle. The first one has &lt;strong&gt;hue&lt;/strong&gt; equal to &lt;code class=&quot;highlighter-rouge&quot;&gt;160&lt;/code&gt;, &lt;strong&gt;brightness&lt;/strong&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;0.8&lt;/code&gt; and &lt;strong&gt;saturation&lt;/strong&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;1&lt;/code&gt;. The second has &lt;strong&gt;hue&lt;/strong&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;250&lt;/code&gt;, &lt;strong&gt;brightness&lt;/strong&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;1&lt;/code&gt; and &lt;strong&gt;saturation&lt;/strong&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;0.1&lt;/code&gt; but it’s also moved horizontally (&lt;strong&gt;x&lt;/strong&gt;) by &lt;code class=&quot;highlighter-rouge&quot;&gt;2&lt;/code&gt; and vertically (&lt;strong&gt;y&lt;/strong&gt;) by &lt;code class=&quot;highlighter-rouge&quot;&gt;1&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Here is an example of an image with two primitive shapes. The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;startshape&lt;/code&gt; is called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;BRANCH&lt;/code&gt; but you can use any name. Note that at least one &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;shape&lt;/code&gt; with the same name should be provided, otherwise &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Shape with no rules encountered&lt;/code&gt; warning will be displayed. The two shapes are a triangle and a circle. The first one has &lt;strong&gt;hue&lt;/strong&gt; equal to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;160&lt;/code&gt;, &lt;strong&gt;brightness&lt;/strong&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0.8&lt;/code&gt; and &lt;strong&gt;saturation&lt;/strong&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1&lt;/code&gt;. The second has &lt;strong&gt;hue&lt;/strong&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;250&lt;/code&gt;, &lt;strong&gt;brightness&lt;/strong&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1&lt;/code&gt; and &lt;strong&gt;saturation&lt;/strong&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0.1&lt;/code&gt; but it’s also moved horizontally (&lt;strong&gt;x&lt;/strong&gt;) by &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;2&lt;/code&gt; and vertically (&lt;strong&gt;y&lt;/strong&gt;) by &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1&lt;/code&gt;.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;startshape BRANCH
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;startshape BRANCH
 
 shape BRANCH
 {
@@ -31,9 +31,9 @@ shape BRANCH
 &lt;p&gt;&lt;img src=&quot;/assets/images/snowflake_1.png&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;example-2&quot;&gt;Example 2&lt;/h3&gt;
-&lt;p&gt;The example above demonstrates that rules tell Context Free how to draw a shape in terms of other shapes. When a shape is drawn, its rule is evaluated and the shape is replaced with the shapes listed in the rule. Each replacement has a state, relative to the state of the parent shape. This can be illustrated with a simple recursion. The &lt;code class=&quot;highlighter-rouge&quot;&gt;BRANCH&lt;/code&gt; shape contains the triangle from the previous example and a call to the same &lt;code class=&quot;highlighter-rouge&quot;&gt;BRANCH&lt;/code&gt; rule with parameters. On each call &lt;strong&gt;size&lt;/strong&gt; changes by &lt;code class=&quot;highlighter-rouge&quot;&gt;0.9&lt;/code&gt;, &lt;strong&gt;y&lt;/strong&gt; by &lt;code class=&quot;highlighter-rouge&quot;&gt;-0.2&lt;/code&gt;, &lt;strong&gt;alpha&lt;/strong&gt; by &lt;code class=&quot;highlighter-rouge&quot;&gt;-0.2&lt;/code&gt; and &lt;strong&gt;hue&lt;/strong&gt; by &lt;code class=&quot;highlighter-rouge&quot;&gt;8&lt;/code&gt;. Note that the order of the parameters does not change how the shape is drawn.&lt;/p&gt;
+&lt;p&gt;The example above demonstrates that rules tell Context Free how to draw a shape in terms of other shapes. When a shape is drawn, its rule is evaluated and the shape is replaced with the shapes listed in the rule. Each replacement has a state, relative to the state of the parent shape. This can be illustrated with a simple recursion. The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;BRANCH&lt;/code&gt; shape contains the triangle from the previous example and a call to the same &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;BRANCH&lt;/code&gt; rule with parameters. On each call &lt;strong&gt;size&lt;/strong&gt; changes by &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0.9&lt;/code&gt;, &lt;strong&gt;y&lt;/strong&gt; by &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-0.2&lt;/code&gt;, &lt;strong&gt;alpha&lt;/strong&gt; by &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-0.2&lt;/code&gt; and &lt;strong&gt;hue&lt;/strong&gt; by &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;8&lt;/code&gt;. Note that the order of the parameters does not change how the shape is drawn.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;startshape BRANCH
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;startshape BRANCH
 
 shape BRANCH
 {
@@ -45,9 +45,9 @@ shape BRANCH
 &lt;p&gt;&lt;img src=&quot;/assets/images/snowflake_2.png&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;example-3&quot;&gt;Example 3&lt;/h3&gt;
-&lt;p&gt;The next example shows how to define another shape, called &lt;code class=&quot;highlighter-rouge&quot;&gt;SNOWFLAKE&lt;/code&gt; which calls the &lt;code class=&quot;highlighter-rouge&quot;&gt;BRANCH&lt;/code&gt; shape &lt;code class=&quot;highlighter-rouge&quot;&gt;9&lt;/code&gt; times while rotating it by &lt;code class=&quot;highlighter-rouge&quot;&gt;40&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;The next example shows how to define another shape, called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SNOWFLAKE&lt;/code&gt; which calls the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;BRANCH&lt;/code&gt; shape &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;9&lt;/code&gt; times while rotating it by &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;40&lt;/code&gt;.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;startshape SNOWFLAKE
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;startshape SNOWFLAKE
 
 shape SNOWFLAKE
 {
@@ -64,7 +64,7 @@ shape BRANCH
 &lt;p&gt;&lt;img src=&quot;/assets/images/snowflake_3.png&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;bonus-example&quot;&gt;Bonus example&lt;/h3&gt;
-&lt;p&gt;This was my course project for the &lt;strong&gt;Grammars for Generative Art&lt;/strong&gt; course. This &lt;code class=&quot;highlighter-rouge&quot;&gt;565x565&lt;/code&gt; image contains &lt;code class=&quot;highlighter-rouge&quot;&gt;39 942&lt;/code&gt; shapes, using only circles. The code can be found in my &lt;a href=&quot;https://github.com/spiralnegative/context-free-artwork&quot;&gt;context-free-artwork&lt;/a&gt; repository.&lt;/p&gt;
+&lt;p&gt;This was my course project for the &lt;strong&gt;Grammars for Generative Art&lt;/strong&gt; course. This &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;565x565&lt;/code&gt; image contains &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;39 942&lt;/code&gt; shapes, using only circles. The code can be found in my &lt;a href=&quot;https://github.com/spiralnegative/context-free-artwork&quot;&gt;context-free-artwork&lt;/a&gt; repository.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/cosmic_PIPHRD.png&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
 
@@ -90,6 +90,8 @@ shape BRANCH
           <category>article</category>
           
         </item>
+      
+    
       
     
       
@@ -314,8 +316,6 @@ shape BRANCH
           <category>article</category>
           
         </item>
-      
-    
       
     
   </channel>
