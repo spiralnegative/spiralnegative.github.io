@@ -1,5 +1,5 @@
 name: spiralnegative
-description: a glitch in your system
+description: a blog about random stuff I like
 meta_description: spiralnegative
 github: https://github.com/spiralnegative
 
@@ -14,7 +14,7 @@ plugins:
   - jekyll-feed
 
 # Details for the RSS feed generator
-url:            http://spiralnegative.space
-author:         Monica G.
-bio:            Nature lover, software engineer, wannabe baker, tea drinker, cyberpunk enthusiast. INFJ 🐇
+url: http://spiralnegative.space
+author: Monica G.
+bio: Software engineer, interested in sustainability, succulents and baking 🧁
 permalink: /:title.html
