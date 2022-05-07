@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "1 Second Everyday - My Life at 29"
-date:   2020-04-11 19:42:00
+date:   2021-04-11 19:42:00
 disqus: false
 categories: 1se
 tags:
