@@ -5,9 +5,60 @@
     <description>a blog about random stuff I like</description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 07 May 2022 11:26:53 +0300</pubDate>
-    <lastBuildDate>Sat, 07 May 2022 11:26:53 +0300</lastBuildDate>
-    <generator>Jekyll v3.9.2</generator>
+    <pubDate>Sun, 23 Jul 2023 15:30:08 +0300</pubDate>
+    <lastBuildDate>Sun, 23 Jul 2023 15:30:08 +0300</lastBuildDate>
+    <generator>Jekyll v3.9.3</generator>
+    
+      
+        <item>
+          <title>Programmer&apos;s guide to parenting</title>
+          <description>&lt;p&gt;It has been more than 8 months since I’ve become a mother. Like anything amazing in life, having a baby is something that cannot be described with simple words without sounding cliche. That’s why I’ll try explaining it using programming principles and terms, in a semi-humorous manner.&lt;/p&gt;
+
+&lt;h2 id=&quot;kiss&quot;&gt;KISS&lt;/h2&gt;
+&lt;p&gt;Kiss your baby all the time! But also, &lt;strong&gt;keep it simple, stupid&lt;/strong&gt;! Nature always finds a way, no need to overcomplicate things. There is so much information, so many products, everyone will give you different advice which might make you feel really overwhelmed. But remember that humanity has survived throughout centuries and you’ve got instincts. And common sense.&lt;/p&gt;
+
+&lt;h2 id=&quot;lifo&quot;&gt;LIFO&lt;/h2&gt;
+&lt;p&gt;When time is limited, &lt;strong&gt;last in, first out&lt;/strong&gt; might involuntarily become your way of doing chores. You wash your hands and remember that you have to change the towel. On your way to the laundry basket you notice a few groceries that need to be put in the fridge. After taking care of them and still holding the dirty towel, you notice that you’re running out of laundry detergent. You pick your phone to write that in your shopping list. But you notice that your hands are still a bit wet so you go back to the sink just to remember you were on your way to pick a clean towel.&lt;/p&gt;
+
+&lt;h2 id=&quot;less-is-more&quot;&gt;Less is more&lt;/h2&gt;
+&lt;p&gt;This one might seem insignificant but &lt;strong&gt;less is more&lt;/strong&gt; when it comes to cosmetics. Many products, marketed for babies, contain unnecessary and even harmful ingredients. For example, baby wipes might have different scents and long lists of ingredients or contain only water. Obviously the second option is better.&lt;/p&gt;
+
+&lt;h2 id=&quot;yagni&quot;&gt;YAGNI&lt;/h2&gt;
+&lt;p&gt;No matter if you consider yourself a minimalist or not, be prepared that your baby will require lots of stuff. But don’t go on a shopping spree because there are tons of items that &lt;strong&gt;you aren’t going to need (it)&lt;/strong&gt;. Instead, start small (crib, stroller, clothes, etc.) and pay attention to what your own baby needs. For example, a baby bouncer might work magic for others but not be needed in your home.&lt;/p&gt;
+
+&lt;h2 id=&quot;no-right-way&quot;&gt;No “right” way&lt;/h2&gt;
+&lt;p&gt;There are many apects of taking care for an infant and many ways to do it. If you ask 10 families what’s the best way to put a baby to sleep you’ll hear 10 different approaches (or at least a few variations). So remember that there is &lt;strong&gt;no “right” way&lt;/strong&gt; to do it, just observe your baby and see what works.&lt;/p&gt;
+
+&lt;h2 id=&quot;debugging&quot;&gt;Debugging&lt;/h2&gt;
+&lt;p&gt;Having a baby is a lot like &lt;strong&gt;debugging&lt;/strong&gt;. Every time you find the bug, crack the code and get a green light (or a pat on your shoulder), a new challenge appears (see below).&lt;/p&gt;
+
+&lt;h2 id=&quot;software-updates&quot;&gt;Software updates&lt;/h2&gt;
+&lt;p&gt;You’ve reached a state when you perfectly understand your baby, your life is easy and then one morning everything changes. Your baby used to sleep through the night the last 4 months? Not anymore! Your baby couldn’t sit independently? Not anymore! Who’s to blame? The &lt;strong&gt;software updates&lt;/strong&gt; of your infant’s brain! Sometimes it’s just a patch, other times it’s a minor update or even a breaking change - you never know what and when to expect.&lt;/p&gt;
+
+&lt;h2 id=&quot;keeping-track&quot;&gt;Keeping track&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Keeping track&lt;/strong&gt; keeps you sane. You might find baby tracker mobile apps quite useful, especially in the beginning when you’re learning your baby’s habbits. One morning in the first weeks I woke up and panicked that I’ve slept through the night and my infant hasn’t eaten in 7 hours. But when I checked my phone, I saw that I had recorded nursing at 3 am, although I didn’t remember waking up at all.&lt;/p&gt;
+
+&lt;h2 id=&quot;tits&quot;&gt;TITS&lt;/h2&gt;
+&lt;p&gt;This one is a bonus advice from my husband - always keep your &lt;strong&gt;time intensitive tasks separated&lt;/strong&gt;. Whatever that means.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/baby.jpg&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;in-a-nutshell&quot;&gt;In a nutshell&lt;/h2&gt;
+&lt;p&gt;Parenting is truly a wonderful and life changing experience, sometimes a bit difficult but ultimately rewarding. It teaches you to observe, be patient and prioritize. There is no greater joy than seeing that little person smile at you, search the room for you, stretch their little hand to touch you and many, many other loveable milestones I’m looking forward to experience.&lt;/p&gt;
+</description>
+          <pubDate>Sun, 23 Jul 2023 12:41:00 +0300</pubDate>
+          <link>http://localhost:4000//programmers-guide-to-parenting.html</link>
+          <guid isPermaLink="true">http://localhost:4000//programmers-guide-to-parenting.html</guid>
+          
+          <category>programming</category>
+          
+          <category>life</category>
+          
+          
+          <category>article</category>
+          
+        </item>
+      
     
       
     
@@ -256,8 +307,6 @@ shape BRANCH
           <category>article</category>
           
         </item>
-      
-    
       
     
   </channel>
