@@ -25,7 +25,7 @@ post_class: post-template
               {% endif %}
               {% if page.tags.size > 0 %}
                 {% for tag in page.tags %}
-                  <a href="/tag/{{ tag }}">#{{ tag }}</a>
+                  #{{ tag }}
                 {% endfor %}
               {% endif %}
             </section>
