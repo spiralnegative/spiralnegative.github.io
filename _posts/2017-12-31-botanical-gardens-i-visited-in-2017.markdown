@@ -3,7 +3,7 @@ layout: post
 title:  "Botanical gardens I visited in 2017"
 date:   2017-12-31 11:37:00
 disqus: true
-categories: article
+categories: archived
 tags:
 - photography
 - traveling

@@ -3,7 +3,7 @@ layout: post
 title:  "European Week for Waste Reduction"
 date:   2016-11-24 07:36:00
 disqus: true
-categories: article
+categories: archived
 tags:
 - EWWR2016
 - WasteReductionWeek
