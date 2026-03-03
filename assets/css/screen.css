@@ -482,7 +482,7 @@ margin on the iframe, cause it breaks stuff. */
     display: table;
     width: 100%;
     height: 100%;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
     text-align: center;
     background: #222 no-repeat center center;
     background-size: cover;
@@ -779,7 +779,7 @@ body:not(.post-template) .post-title {
 
 .post-meta {
     display: block;
-    margin: 1.75rem 0 0 0;
+    margin: 0 0 2rem 0;
     font-family: "Open Sans", sans-serif;
     font-size: 1.5rem;
     line-height: 2.2rem;
