@@ -1,12 +1,8 @@
 ---
-layout: page
+layout: post
 title: About
 ---
 
-I'm a software engineer with B.S. in Informatics and M.S. in Bioinfomatics from "St. Kliment Ohridski" University of Sofia. Currently specialising in backend web development, I'm proficient in Ruby and Python. I enjoy solving complex problems, improving existing systems and learning new things.
+Hello! I’m Monika - a software developer with B.S. in Informatics and M.S. in Bioinformatics from Sofia University “St. Kliment Ohridski”. Currently I’m working as a full stack developer, supplementing my backend experience in Ruby and Python with the frontend world of React. I enjoy solving complex problems and improving existing systems, as well as collaborating on major features from their start through to completion and beyond.
 
-
-Apart from software development, I am interested in low waste / sustainability, succulents, <a href="https://www.flickr.com/people/spiralnegative/">film photography</a> and baking.
-
-
-{% include share.html %}
+When I <kbd>:wq</kbd>, I like living a slow life away from screens (as much as I can) and being occupied with my hobbies. Most of all, I cherish the time spent with my family and recharging in nature or visiting a new place.

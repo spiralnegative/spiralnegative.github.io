@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title:  Now
 date:   2026-03-03 08:33:00
 ---
