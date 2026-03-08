@@ -498,6 +498,7 @@ iframe,
   background-image: url("../images/background.png");
   background-repeat: no-repeat;
   background-position: left center;
+  animation: fade-in-down 0.9s 0.1s both;
 }
 
 .post:after,
@@ -738,9 +739,7 @@ iframe,
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .home-template .page-title {
-    animation: fade-in-down 0.6s 0.2s;
-  }
+  .home-template .page-title,
   .home-template .page-description {
     animation: fade-in-down 0.9s 0.1s;
   }

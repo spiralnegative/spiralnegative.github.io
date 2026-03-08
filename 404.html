@@ -1,0 +1,31 @@
+---
+layout: default
+title: "404: A Digital Dead End"
+permalink: /404.html
+---
+
+<header class="main-header {% if page.cover %} style="background-image: url({{ page.cover }}) {% else %} no-cover {% endif %}">
+    <nav class="main-nav overlay clearfix">
+        {% if page.logo %}
+            <a class="blog-logo" href="{{ site.baseurl }}">
+                <img src="{{ page.logo }}" alt="Blog Logo" />
+            </a>
+        {% endif %}
+        <a class="back-button icon-arrow-left" href="{{ site.url }}">Home</a>
+        {% include header.html %}
+    </nav>
+    <div class="vertical">
+        <div class="main-header-content inner">
+            <h1 class="page-title">404</h1>
+            <h2 class="page-description">You’ve spiraled off the map.</h2>
+        </div>
+    </div>
+</header>
+
+<main id="content" class="content" role="main">
+    <article class="post" style="padding: 4rem 0; text-align: center;">
+        <section class="post-excerpt">
+            <p>I could tell you a joke about a broken link, but I don't think it would <i>get</i> anywhere.</p>
+        </section>
+    </article>
+</main>
