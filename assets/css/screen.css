@@ -495,10 +495,6 @@ iframe,
 .vertical {
   display: table-cell;
   vertical-align: middle;
-  background-image: url("../images/background.png");
-  background-repeat: no-repeat;
-  background-position: left center;
-  animation: fade-in-down 0.9s 0.1s both;
 }
 
 .post:after,
@@ -547,6 +543,18 @@ iframe,
 .main-nav a {
   text-decoration: none;
   font-family: var(--font-heading), sans-serif;
+}
+
+.header-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/background.png");
+  background-repeat: no-repeat;
+  background-position: center left;
+  z-index: 0;
 }
 
 .scroll-down {
@@ -739,6 +747,7 @@ iframe,
 }
 
 @media (prefers-reduced-motion: no-preference) {
+  .home-template .header-image,
   .home-template .page-title,
   .home-template .page-description {
     animation: fade-in-down 0.9s 0.1s;
