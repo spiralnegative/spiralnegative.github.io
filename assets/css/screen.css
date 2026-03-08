@@ -747,10 +747,12 @@ iframe,
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .home-template .header-image,
-  .home-template .page-title,
+  .home-template .page-title {
+    will-change: transform, opacity, text-shadow;
+    animation: glitch-text 3s infinite linear alternate-reverse both;
+  }
   .home-template .page-description {
-    animation: fade-in-down 0.9s 0.1s;
+    animation: glitch-text 2s linear 0.7s infinite alternate-reverse both;
   }
 }
 
@@ -1640,14 +1642,40 @@ body:not(.post-template) .post-title {
    13. Animations
    ========================================================================== */
 
-@keyframes fade-in-down {
-  0% {
-    opacity: 0;
-    transform: translateY(-10px);
+@keyframes glitch-text {
+  0%, 100% {
+    transform: translate(0);
+    text-shadow: none;
   }
-  100% {
+  31% {
+    transform: translate(0);
+    text-shadow: none;
+  }
+  32% {
+    transform: translate(2px, -1px);
+    text-shadow: 5px 0 #ff00c1, -4px 0 #00fff9;
+  }
+  33% {
+    transform: translate(-7px, 3px);
+    text-shadow: -9px 0 #ff00c1, 5px 0 #00fff9;
+  }
+  34% {
+    transform: translate(0);
+    text-shadow: none;
+  }
+  45% {
+    transform: translate(0);
+    text-shadow: none;
+  }
+  46% {
+    transform: translate(-4px, -7px);
+    text-shadow: 5px 0 #ff00c1, -9px 0 #00fff9;
+    opacity: 0.8;
+  }
+  47% {
+    transform: translate(0);
+    text-shadow: none;
     opacity: 1;
-    transform: translateY(0);
   }
 }
 
