@@ -5,14 +5,44 @@
     <description>randomly accessed memories</description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 08 Mar 2026 08:13:35 +0200</pubDate>
-    <lastBuildDate>Sun, 08 Mar 2026 08:13:35 +0200</lastBuildDate>
+    <pubDate>Sun, 08 Mar 2026 17:20:23 +0200</pubDate>
+    <lastBuildDate>Sun, 08 Mar 2026 17:20:23 +0200</lastBuildDate>
     <generator>Jekyll v4.4.1</generator>
     
-      
-        <item>
-          <title>The future of this website</title>
-          <description>&lt;p&gt;I haven’t posted here in a while, mostly because I wasn’t sure what I wanted to do with this &lt;del&gt;blog&lt;/del&gt; &lt;strong&gt;website&lt;/strong&gt;. Recently, the &lt;a href=&quot;https://indieweb.org/&quot;&gt;Indie Web&lt;/a&gt; has gained popularity as an escape from algorithm-driven content and AI-generated noise. Another thing that resonated with me was the essay &lt;a href=&quot;https://ratfactor.com/tech-nope2&quot;&gt;A programmer’s loss of a social identity&lt;/a&gt; which put some of the feelings that have been bothering me in the past months (often subconsciously) into words. All of this (and many other things) made me realise I don’t want to give up on this website yet; I just need some inspiration to shape it.&lt;/p&gt;
+    
+    
+    
+      <item>
+        <title>Now</title>
+        <description>_What is a [now page](https://nownownow.com/about)?_
+
+## Programming
+I changed my job a few months ago and now I&apos;m working as a full stack developer with Ruby on Rails, React and GraphQL. Coming from a backend background, there has definitely been a learning curve, so I switched to Cursor. Apart from the tab completion, it has great support for TypeScript - something my current Vim setup lacks, though I hope to find the time to improve that soon.
+
+I also decided to make a few improvements on my website, including this &quot;now&quot; page. More on that: [The future of this website]({{ &quot;/the-future-of-this-ebsite.html&quot; | relative_url }})
+
+## Hobbies
+I finally found someone to fix my Zenit, and I still have a few interesting film rolls from last year&apos;s [trip to Hong Kong](https://www.lomography.com/homes/spiralnegative/albums/2484582-hong-kong). I&apos;m looking forward to experimenting with them and trying out some multiple exposures.
+
+I also realised that I&apos;ve been doing aerial silks for two years now, and I&apos;m really happy with how my upper body strength has improved.
+
+As for my plants, there haven&apos;t been any recent additions to the collection, but I&apos;m actively propagating and sharing them with the [@plantexchangebg](https://www.instagram.com/plantexchangebg/) community.
+
+## Others
+🍪 I&apos;ve been making [energy balls](https://minimalistbaker.com/5-ingredient-peanut-butter-cup-energy-bites/) and [oat bars](https://www.kulinarno-joana.com/2024/12/super-oveseni-barcheta-s-tahan-i-parchenca-shocolad/)
+&lt;br&gt;🎸 I&apos;ve been listening to [Kula Shaker - Lucky Number](https://youtu.be/wtiDu8kQGhg?si=emzl-1YeGD2o93kj)
+&lt;br&gt;📚 I&apos;ve been reading [The Murderbot Diaries](https://www.goodreads.com/series/191900-the-murderbot-diaries)
+</description>
+        <pubDate>Tue, 03 Mar 2026 10:33:00 +0200</pubDate>
+        <link>http://localhost:4000//now</link>
+        <guid isPermaLink="true">http://localhost:4000//now</guid>
+          
+          
+      </item>
+    
+      <item>
+        <title>The future of this website</title>
+        <description>&lt;p&gt;I haven’t posted here in a while, mostly because I wasn’t sure what I wanted to do with this &lt;del&gt;blog&lt;/del&gt; &lt;strong&gt;website&lt;/strong&gt;. Recently, the &lt;a href=&quot;https://indieweb.org/&quot;&gt;Indie Web&lt;/a&gt; has gained popularity as an escape from algorithm-driven content and AI-generated noise. Another thing that resonated with me was the essay &lt;a href=&quot;https://ratfactor.com/tech-nope2&quot;&gt;A programmer’s loss of a social identity&lt;/a&gt; which put some of the feelings that have been bothering me in the past months (often subconsciously) into words. All of this (and many other things) made me realise I don’t want to give up on this website yet; I just need some inspiration to shape it.&lt;/p&gt;
 
 &lt;h2 id=&quot;journalling&quot;&gt;Journalling&lt;/h2&gt;
 &lt;p&gt;I’ve been interested in journalling probably since I learned how to write - like every kid in the early 2000s, I had notebooks with silly little locks. In high school, I discovered MySpace - one of the best things to ever exist on the internet. It taught me basic HTML and CSS skills before I even decided to study Informatics. Later came Facebook, but I didn’t stick around long after it became mainstream and I became interested into privacy, along with other &lt;a href=&quot;/reasons-why-i-dont-use-facebook.html&quot;&gt;Reasons why I don’t use Facebook&lt;/a&gt;. I also tried blogging on LiveJournal for a few years but eventually moved ✨&lt;em&gt;here&lt;/em&gt;✨. My Twitter account, originally created for a job interview, lasted until it stopped being called Twitter. The only social media account of mine that survived* is Instagram - though it’s unrecognisable from the simple photo-sharing app it was in 2013. I keep it to stay in touch with friends, follow interesting content creators and watch the occasional silly reel, but one day I might get mad enough at Meta to finally deactivate it.&lt;/p&gt;
@@ -29,24 +59,22 @@
   &lt;li&gt;&lt;strong&gt;The “Now” Page&lt;/strong&gt;: My goal is to update it every few months to keep this “garden” alive.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-          <pubDate>Tue, 03 Mar 2026 10:33:00 +0200</pubDate>
-          <link>http://localhost:4000//the-future-of-this-website.html</link>
-          <guid isPermaLink="true">http://localhost:4000//the-future-of-this-website.html</guid>
+        <pubDate>Tue, 03 Mar 2026 10:33:00 +0200</pubDate>
+        <link>http://localhost:4000//the-future-of-this-website.html</link>
+        <guid isPermaLink="true">http://localhost:4000//the-future-of-this-website.html</guid>
           
-          <category>programming</category>
+            <category>programming</category>
           
-          <category>life</category>
+            <category>life</category>
           
           
-          <category>article</category>
+            <category>article</category>
           
-        </item>
-      
+      </item>
     
-      
-        <item>
-          <title>Programmer&apos;s guide to parenting</title>
-          <description>&lt;p&gt;It has been more than 8 months since I’ve become a mother. Like anything amazing in life, having a baby is something that cannot be described with simple words without sounding cliche. That’s why I’ll try explaining it using programming principles and terms, in a semi-humorous manner.&lt;/p&gt;
+      <item>
+        <title>Programmer&apos;s guide to parenting</title>
+        <description>&lt;p&gt;It has been more than 8 months since I’ve become a mother. Like anything amazing in life, having a baby is something that cannot be described with simple words without sounding cliche. That’s why I’ll try explaining it using programming principles and terms, in a semi-humorous manner.&lt;/p&gt;
 
 &lt;h2 id=&quot;kiss&quot;&gt;KISS&lt;/h2&gt;
 &lt;p&gt;Kiss your baby all the time! But also, &lt;strong&gt;keep it simple, stupid&lt;/strong&gt;! Nature always finds a way, no need to overcomplicate things. There is so much information, so many products, everyone will give you different advice which might make you feel really overwhelmed. But remember that humanity has survived throughout centuries and you’ve got instincts. And common sense.&lt;/p&gt;
@@ -80,28 +108,22 @@
 &lt;h2 id=&quot;in-a-nutshell&quot;&gt;In a nutshell&lt;/h2&gt;
 &lt;p&gt;Parenting is truly a wonderful and life changing experience, sometimes a bit difficult but ultimately rewarding. It teaches you to observe, be patient and prioritize. There is no greater joy than seeing that little person smile at you, search the room for you, stretch their little hand to touch you and many, many other loveable milestones I’m looking forward to experience.&lt;/p&gt;
 </description>
-          <pubDate>Sun, 23 Jul 2023 12:41:00 +0300</pubDate>
-          <link>http://localhost:4000//programmers-guide-to-parenting.html</link>
-          <guid isPermaLink="true">http://localhost:4000//programmers-guide-to-parenting.html</guid>
+        <pubDate>Sun, 23 Jul 2023 12:41:00 +0300</pubDate>
+        <link>http://localhost:4000//programmers-guide-to-parenting.html</link>
+        <guid isPermaLink="true">http://localhost:4000//programmers-guide-to-parenting.html</guid>
           
-          <category>programming</category>
+            <category>programming</category>
           
-          <category>life</category>
+            <category>life</category>
           
           
-          <category>article</category>
+            <category>article</category>
           
-        </item>
-      
+      </item>
     
-      
-    
-      
-    
-      
-        <item>
-          <title>Generative art: Context Free</title>
-          <description>&lt;p&gt;Generative art, sometimes called algorithmic art, is &lt;a href=&quot;https://en.wikipedia.org/wiki/Generative_art&quot;&gt;defined by Wikipedia&lt;/a&gt; as “art that in whole or in part has been created with the use of an autonomous system (…) [which] can independently determine features of an artwork that would otherwise require decisions made directly by the artist”. Back in my second year at university I studied &lt;strong&gt;Grammars for Generative Art&lt;/strong&gt; which introduced its visual aspect to me. Many years have passed since then and I have only recently started experimenting with it again after browsing &lt;a href=&quot;https://www.reddit.com/r/generative/&quot;&gt;/r/generative&lt;/a&gt;.&lt;/p&gt;
+      <item>
+        <title>Generative art: Context Free</title>
+        <description>&lt;p&gt;Generative art, sometimes called algorithmic art, is &lt;a href=&quot;https://en.wikipedia.org/wiki/Generative_art&quot;&gt;defined by Wikipedia&lt;/a&gt; as “art that in whole or in part has been created with the use of an autonomous system (…) [which] can independently determine features of an artwork that would otherwise require decisions made directly by the artist”. Back in my second year at university I studied &lt;strong&gt;Grammars for Generative Art&lt;/strong&gt; which introduced its visual aspect to me. Many years have passed since then and I have only recently started experimenting with it again after browsing &lt;a href=&quot;https://www.reddit.com/r/generative/&quot;&gt;/r/generative&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;context-free&quot;&gt;Context Free&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.contextfreeart.org/index.html&quot;&gt;Context Free&lt;/a&gt; is a digital art program that generates images from instructions in the form of &lt;strong&gt;context free (design) grammar&lt;/strong&gt; called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cfdg&lt;/code&gt; files. What a context free grammar typically does is to analyze a sentence of symbols to see if they can reduce to some root symbol. Here the symbol is a shape, composed of some number of primitive shapes (squares, circles, triangles and fills) and non-primitive shapes. A &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cfdg&lt;/code&gt; file consists of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;startshape&lt;/code&gt; and some number of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;shape&lt;/code&gt; rules. These rules provide information about the shape - colour, geometry (position, size, rotation and skew) and Z order (for overlapping shapes).&lt;/p&gt;
@@ -167,30 +189,22 @@ shape BRANCH
   &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=G1m0aX9Lpts&quot;&gt;Sam Aaron&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-          <pubDate>Mon, 20 Apr 2020 14:26:00 +0300</pubDate>
-          <link>http://localhost:4000//generative-art-context-free.html</link>
-          <guid isPermaLink="true">http://localhost:4000//generative-art-context-free.html</guid>
+        <pubDate>Mon, 20 Apr 2020 14:26:00 +0300</pubDate>
+        <link>http://localhost:4000//generative-art-context-free.html</link>
+        <guid isPermaLink="true">http://localhost:4000//generative-art-context-free.html</guid>
           
-          <category>programming</category>
+            <category>programming</category>
           
-          <category>generative art</category>
+            <category>generative art</category>
           
           
-          <category>article</category>
+            <category>article</category>
           
-        </item>
-      
+      </item>
     
-      
-    
-      
-    
-      
-    
-      
-        <item>
-          <title>Film photography</title>
-          <description>&lt;p&gt;In early 2000s, when I got my first digital camera, I never looked back to the old, basic film cameras that my parents used to take photos with when I was younger. Digital cameras were the only way to get decent photos as mobile phones with cameras were yet to become popular. Things changed a lot since then and taking a photograph has become like a second nature, muscle memory. But I guess I’m too nostalgic and sentimental to be that involved in this new, shiny technology.&lt;/p&gt;
+      <item>
+        <title>Film photography</title>
+        <description>&lt;p&gt;In early 2000s, when I got my first digital camera, I never looked back to the old, basic film cameras that my parents used to take photos with when I was younger. Digital cameras were the only way to get decent photos as mobile phones with cameras were yet to become popular. Things changed a lot since then and taking a photograph has become like a second nature, muscle memory. But I guess I’m too nostalgic and sentimental to be that involved in this new, shiny technology.&lt;/p&gt;
 
 &lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot; data-footer=&quot;true&quot; href=&quot;https://www.flickr.com/photos/147251133@N04/33117822374/in/dateposted-public/&quot; title=&quot;TV Tower&quot;&gt;&lt;img src=&quot;https://live.staticflickr.com/2806/33117822374_9e80326267_z.jpg&quot; width=&quot;640&quot; height=&quot;424&quot; alt=&quot;TV Tower&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
 
@@ -272,21 +286,95 @@ shape BRANCH
   &lt;li&gt;&lt;a href=&quot;https://expertphotography.com/why-you-should-shoot-on-film/&quot;&gt;Film Photography Benefits: Why I Still Shoot on Film (and You Should Too!)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-          <pubDate>Fri, 03 May 2019 16:37:00 +0300</pubDate>
-          <link>http://localhost:4000//film-photography.html</link>
-          <guid isPermaLink="true">http://localhost:4000//film-photography.html</guid>
+        <pubDate>Fri, 03 May 2019 16:37:00 +0300</pubDate>
+        <link>http://localhost:4000//film-photography.html</link>
+        <guid isPermaLink="true">http://localhost:4000//film-photography.html</guid>
           
-          <category>photography</category>
+            <category>photography</category>
           
-          <category>hobbies</category>
+            <category>hobbies</category>
           
           
-          <category>article</category>
+            <category>article</category>
           
-        </item>
-      
+      </item>
     
-      
+      <item>
+        <title>Reasons why I don&apos;t use Facebook </title>
+        <description>&lt;p&gt;It has been a few years since I deactivated my Facebook account and I don’t regret it. People sometimes ask me why - well, I am neither asocial nor friendless. I am just one of &lt;em&gt;those people who don’t use Facebook&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/metadata.jpg&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;i-like-my-privacy&quot;&gt;I like my privacy&lt;/h3&gt;
+&lt;p&gt;Companies like Facebook trick you into thinking that you’re the customer and in control of your data. Unfortunately, you are the &lt;strong&gt;product&lt;/strong&gt; and totally killing you privacy.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Facebook’s business model is to be the man in the middle; to track every move you, your family, and your friends make, to store all that information indefinitely, and continuously analyse it to understand you better in order to exploit you by manipulating you for financial and political gain.&lt;/p&gt;
+
+  &lt;p&gt;Aral Balkan, &lt;a href=&quot;https://ar.al/notes/encouraging-individual-sovereignty-and-a-healthy-commons/&quot;&gt;Encouraging individual sovereignty and a healthy commons&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Facebook has made it harder for users to understand exactly what they’re giving away - third parties pay to access your interests, photos, likes, purchasing intensions and connections. The &lt;a href=&quot;https://veekaybee.github.io/facebook-is-collecting-this/&quot;&gt;data which is collected&lt;/a&gt; is more than you have imagined. Why should we let businesses privatize our social discourse?&lt;/p&gt;
+
+&lt;h3 id=&quot;i-have-alternatives&quot;&gt;I have alternatives&lt;/h3&gt;
+&lt;p&gt;Not using Facebook doesn’t mean I cannot easily connect with people. I can always write an e-mail or make a phone call, I am also on Twitter.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;As social animals we can’t bear the idea of missing out and so many find themselves placing their most intimate expressions onto a businessman’s hard-disk, buried deep in a data center in another country - one they will never be allowed to visit.&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;https://www.cryptoparty.in/learn/handbook&quot;&gt;The CryptoParty Handbook&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;i-dont-feel-lonely&quot;&gt;I don’t feel lonely&lt;/h3&gt;
+&lt;p&gt;Friendships on Facebook are pasive and unhealthy compared with actual socialization. They even make us lonelier than before. I prefer investing my time in face-to-face meetings which make the whole interaction more personal and emotional.&lt;/p&gt;
+&lt;iframe src=&quot;https://player.vimeo.com/video/70534716&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&quot;i-need-to-disconnect&quot;&gt;I need to disconnect&lt;/h3&gt;
+&lt;p&gt;Disconnecting means unplugging from the technologies we use and love. Always being connected can make us anxious or even addicted. Visiting a new place and/or staying offline helps me a lot when I’m feeling overwhelmed.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;The ease of digital distraction has made us appreciate solitude with a new intensity. We savor being face-to-face with a small group of friends or family in one place and one time far more thanks to the digital sociality that so fluidly rearranges the rules of time and space.&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://thenewinquiry.com/essays/the-irl-fetish/&quot;&gt;The IRL fetish&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;i-might-want-to-reinvent-myself&quot;&gt;I might want to reinvent myself&lt;/h3&gt;
+&lt;p&gt;Not many people realize that anything posted online might come to haunt them permanently one day, yet everyone needs space to grow. I don’t want to document every aspect of my life, no matter good or bad, just to regret it a few years later.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;What they don’t tell you is that it’s impossible to move, to live, to operate at any level without leaving traces, bits, seemingly meaningless fragments of personal information. Fragments that can be retrieved, amplified…&lt;/p&gt;
+
+  &lt;p&gt;William Gibson, &lt;a href=&quot;https://en.wikipedia.org/wiki/Johnny_Mnemonic&quot;&gt;Johnny Mnemonic&lt;/a&gt; (1981)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;i-dont-want-to-waste-my-time&quot;&gt;I don’t want to waste my time&lt;/h3&gt;
+&lt;p&gt;Time is limited and learning how to prioritize is important. I am trying to reduce the number of things that require my attention so that I can happily apply more attention to those things I care the most about.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 23 Feb 2017 23:38:00 +0200</pubDate>
+        <link>http://localhost:4000//reasons-why-i-dont-use-facebook.html</link>
+        <guid isPermaLink="true">http://localhost:4000//reasons-why-i-dont-use-facebook.html</guid>
+          
+            <category>privacy</category>
+          
+          
+            <category>article</category>
+          
+      </item>
+    
+      <item>
+        <title>Hello World</title>
+        <description>&lt;p&gt;It was high time I started &lt;a href=&quot;http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html&quot;&gt;blogging like a hacker&lt;/a&gt;. &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;, a static site generator in Ruby, was exactly what I needed. It converts raw text files in various formats and generates a complete, static website. All of the content is hosted and version-controlled on &lt;a href=&quot;https://github.com/spiralnegative/spiralnegative.github.io&quot;&gt;GitHub&lt;/a&gt;. Basically, I write my posts in Markdown using my test editor of choice, VIm, then I commit and push to Github. Awesome, right?&lt;/p&gt;
+
+&lt;p&gt;Ready, Set, Go!&lt;/p&gt;
+</description>
+        <pubDate>Thu, 10 Nov 2016 12:18:00 +0200</pubDate>
+        <link>http://localhost:4000//hello-world.html</link>
+        <guid isPermaLink="true">http://localhost:4000//hello-world.html</guid>
+          
+            <category>programming</category>
+          
+            <category>Jekyll</category>
+          
+          
+            <category>article</category>
+          
+      </item>
     
   </channel>
 </rss>
