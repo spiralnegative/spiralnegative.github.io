@@ -463,7 +463,7 @@ iframe,
 }
 
 .content {
-  min-height: 64%;
+  min-height: 77%;
 }
 
 /* ==========================================================================
@@ -1241,7 +1241,6 @@ body:not(.post-template) .post-title {
 
 .site-footer {
   position: relative;
-  margin: 8rem 0 0 0;
   padding: 0.5rem 15px;
   border-top: 1px solid var(--color-border);
   font-family: var(--font-heading), sans-serif;
