@@ -9,7 +9,7 @@ _What is a [now page](https://nownownow.com/about)?_
 ## Programming
 I changed my job a few months ago and now I'm working as a full stack developer with Ruby on Rails, React and GraphQL. Coming from a backend background, there has definitely been a learning curve, so I switched to Cursor. Apart from the tab completion, it has great support for TypeScript - something my current Vim setup lacks, though I hope to find the time to improve that soon.
 
-I also decided to make a few improvements on my website, including this "now" page. More on that: [The future of this website]({{ "/the-future-of-this-ebsite.html" | relative_url }})
+I also decided to make a few improvements on my website, including this "now" page. More on that: [The future of this website]({{ "/the-future-of-this-website.html" | relative_url }})
 
 ## Hobbies
 I finally found someone to fix my Zenit, and I still have a few interesting film rolls from last year's [trip to Hong Kong](https://www.lomography.com/homes/spiralnegative/albums/2484582-hong-kong). I'm looking forward to experimenting with them and trying out some multiple exposures.
