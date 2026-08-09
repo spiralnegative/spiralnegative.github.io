@@ -1,6 +1,8 @@
+title: spiralnegative
 name: spiralnegative
-description: randomly accessed memories
-meta_description: spiralnegative
+tagline: randomly accessed memories
+description: >-
+  Randomly accessed memories — a personal blog about hobbies and life in general.
 github: https://github.com/spiralnegative
 
 markdown: kramdown
@@ -8,13 +10,23 @@ highlighter: rouge
 logo: false
 paginate: 15
 baseurl: /
-domain_name: http://spiralnegative.space
-gems: [jekyll-paginate]
+url: https://spiralnegative.space
+
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-relative-links
 
 # Details for the RSS feed generator
-url: http://spiralnegative.space
 author: Monika G.
 bio: Software engineer, interested in sustainability, succulents, film photography and baking 🧁
 permalink: /:title.html
+
+# Default social-preview image for jekyll-seo-tag (og:image / Twitter cards)
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/metadata.jpg
