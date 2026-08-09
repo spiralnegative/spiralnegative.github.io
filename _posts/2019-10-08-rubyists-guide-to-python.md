@@ -6,7 +6,7 @@ theme: solarized
 transition: slide
 categories: presentation
 tags:
-- programming
+- tech
 - presentation
 ---
 <section>

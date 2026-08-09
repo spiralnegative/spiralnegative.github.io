@@ -5,7 +5,7 @@ date:   2016-11-10 10:18:00
 disqus: true
 categories: article
 tags:
-- programming
+- tech
 - Jekyll
 ---
 

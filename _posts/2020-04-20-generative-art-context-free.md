@@ -5,7 +5,7 @@ date:   2020-04-20 11:26:00
 disqus: true
 categories: article
 tags:
-- programming
+- tech
 - generative art
 ---
 

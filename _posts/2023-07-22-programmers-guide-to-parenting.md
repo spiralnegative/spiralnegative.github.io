@@ -5,7 +5,7 @@ date:   2023-07-23 09:41:00
 disqus: true
 categories: article
 tags:
-- programming
+- tech
 - life
 ---
 
