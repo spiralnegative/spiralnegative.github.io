@@ -8,16 +8,21 @@ github: https://github.com/spiralnegative
 markdown: kramdown
 highlighter: rouge
 logo: false
-paginate: 15
 baseurl: /
 url: https://spiralnegative.space
 
 plugins:
   - jekyll-feed
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-relative-links
+
+pagination:
+  enabled: true
+  per_page: 5
+  permalink: /page/:num/
+  sort_reverse: true
 
 # Details for the RSS feed generator
 author: Monika G.
