@@ -1,24 +1,20 @@
 ---
 layout: post
 title:  Now
-date:   2026-03-03 08:33:00
+date:   2026-08-20 22:08:00
 ---
 
 _What is a [now page](https://nownownow.com/about)?_
 
 ## Programming
-I changed my job a few months ago and now I'm working as a full stack developer with Ruby on Rails, React and GraphQL. Coming from a backend background, there has definitely been a learning curve, so I switched to Cursor. Apart from the tab completion, it has great support for TypeScript - something my current Vim setup lacks, though I hope to find the time to improve that soon.
-
-I also decided to make a few improvements on my website, including this "now" page. More on that: [The future of this website]({{ "/the-future-of-this-website.html" | relative_url }})
+I made some small changes on this website, mostly things in the background - added [Umami analytics](https://umami.is/), created robots.txt, improved some visual bits, switched to [jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag) and [jekyll-paginate-v2](https://github.com/sverrirs/jekyll-paginate-v2) and replaced old jQuery with vanilla JS. Some of these things were possible with the help of LLMs - both for ideation and implementation. I know that AI is a controversial topic, but that's a discussion for another time.
 
 ## Hobbies
-I finally found someone to fix my Zenit, and I still have a few interesting film rolls from last year's [trip to Hong Kong](https://www.lomography.com/homes/spiralnegative/albums/2484582-hong-kong). I'm looking forward to experimenting with them and trying out some multiple exposures.
+I recently purchased a vintage Cokin A-series filters set and I will share some photos taken with them soon.
 
-I also realised that I've been doing aerial silks for two years now, and I'm really happy with how my upper body strength has improved.
-
-As for my plants, there haven't been any recent additions to the collection, but I'm actively propagating and sharing them with the [@plantexchangebg](https://www.instagram.com/plantexchangebg/) community.
+[Plant Exchange BG](https://www.instagram.com/plantexchangebg/) turned 5 years in July! What started as a personal profile to share my plant cuttings has grown into a bigger community that I ever imagined.
 
 ## Others
-🍪 I've been making [energy balls](https://minimalistbaker.com/5-ingredient-peanut-butter-cup-energy-bites/) and [oat bars](https://www.kulinarno-joana.com/2024/12/super-oveseni-barcheta-s-tahan-i-parchenca-shocolad/)
-<br>🎸 I've been listening to [Kula Shaker - Lucky Number](https://youtu.be/wtiDu8kQGhg?si=emzl-1YeGD2o93kj)
-<br>📚 I've been reading [The Murderbot Diaries](https://www.goodreads.com/series/191900-the-murderbot-diaries)
+🍪 I've been baking [blueberry muffins](https://receptite.com/%D1%80%D0%B5%D1%86%D0%B5%D0%BF%D1%82%D0%B0/%D0%BC%D1%8A%D1%84%D0%B8%D0%BD%D0%B8-%D1%81-%D0%B1%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D0%BD%D0%BA%D0%B8-3)
+<br>🎸 I've been listening to [Muse - Hexagons](https://youtu.be/ZsSnwzjKAxc?si=11MEaJGr_TE9o_vo)
+<br>📚 I've been reading [Book Lovers](https://www.goodreads.com/book/show/58690308-book-lovers)
